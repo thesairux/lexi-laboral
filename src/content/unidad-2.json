@@ -1,0 +1,1416 @@
+{
+  "unidad": 2,
+  "titulo": "Tus derechos",
+  "descripcion": "Tu contrato, tu liquidación de sueldo, el respeto en el trabajo y qué pasa cuando el trabajo termina.",
+  "fueraDelMaterial": false,
+  "cofreDespuesDe": 3,
+  "lecciones": [
+    {
+      "id": "u2-l1",
+      "numero": 1,
+      "titulo": "Tu contrato",
+      "objetivo": "Saber cómo debe ser tu contrato de trabajo.",
+      "tipoNodo": "leccion",
+      "guia": [
+        {
+          "titulo": "Por escrito",
+          "texto": "Tu contrato debe quedar por escrito dentro de 15 días desde que empiezas, o de 5 días si es por una obra o dura menos de 30 días.",
+          "fuentes": [
+            {
+              "archivo": "Código del Trabajo",
+              "articulo": "Art. 9 CT",
+              "fueraDelMaterial": true
+            }
+          ],
+          "revisar": false
+        },
+        {
+          "titulo": "Dos copias",
+          "texto": "Se firma en dos copias: una para ti y otra para tu empleador. Guarda siempre la tuya.",
+          "fuentes": [
+            {
+              "archivo": "Código del Trabajo",
+              "articulo": "Art. 9 CT",
+              "fueraDelMaterial": true
+            }
+          ],
+          "revisar": false
+        },
+        {
+          "titulo": "Plazo fijo",
+          "texto": "Un contrato a plazo fijo dura como máximo un año. Si te lo renuevan por segunda vez, pasa a ser indefinido.",
+          "fuentes": [
+            {
+              "archivo": "Código del Trabajo",
+              "articulo": "Art. 159 CT",
+              "fueraDelMaterial": true
+            }
+          ],
+          "revisar": false
+        }
+      ],
+      "ejercicios": [
+        {
+          "id": "u2-l1-e01",
+          "unidad": 2,
+          "leccion": 1,
+          "tipo": "seleccion_multiple",
+          "dificultad": 1,
+          "concepto": "contrato",
+          "enunciado": "¿Cuántas copias del contrato se firman?",
+          "opciones": [
+            "Una sola",
+            "Diez",
+            "Ninguna",
+            "Dos: una para cada uno"
+          ],
+          "respuesta": 3,
+          "explicacion": "El contrato se firma en dos ejemplares, y cada parte se queda con uno.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 9 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u2-l1-e02",
+          "unidad": 2,
+          "leccion": 1,
+          "tipo": "verdadero_falso",
+          "dificultad": 1,
+          "concepto": "contrato",
+          "enunciado": "Tu contrato de trabajo debe quedar por escrito.",
+          "respuesta": true,
+          "explicacion": "Verdadero. El empleador debe ponerlo por escrito dentro del plazo de la ley.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 9 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u2-l1-e03",
+          "unidad": 2,
+          "leccion": 1,
+          "tipo": "completar",
+          "dificultad": 1,
+          "concepto": "contrato",
+          "enunciado": "El empleador tiene ___ días para poner tu contrato por escrito.",
+          "respuesta": "15",
+          "banco": [
+            "15",
+            "1",
+            "100"
+          ],
+          "explicacion": "En general son 15 días desde que empiezas a trabajar, o 5 días si es por una obra o dura menos de 30 días.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 9 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u2-l1-e04",
+          "unidad": 2,
+          "leccion": 1,
+          "tipo": "verdadero_falso",
+          "dificultad": 1,
+          "concepto": "contrato",
+          "enunciado": "Si tu empleador no escribe el contrato a tiempo, le pueden poner una multa.",
+          "respuesta": true,
+          "explicacion": "Verdadero. Si no lo escribe dentro del plazo, el empleador recibe una multa.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 9 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u2-l1-e05",
+          "unidad": 2,
+          "leccion": 1,
+          "tipo": "seleccion_multiple",
+          "dificultad": 1,
+          "concepto": "contrato",
+          "enunciado": "Si tu contrato dice cuándo termina, ¿qué tipo de contrato es?",
+          "opciones": [
+            "Indefinido",
+            "Eterno",
+            "Secreto",
+            "A plazo fijo"
+          ],
+          "respuesta": 3,
+          "explicacion": "Un contrato con fecha de término es a plazo fijo. Si no tiene fecha de término, es indefinido.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 159 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u2-l1-e06",
+          "unidad": 2,
+          "leccion": 1,
+          "tipo": "seleccion_multiple",
+          "dificultad": 2,
+          "concepto": "contrato",
+          "enunciado": "¿Cuánto puede durar como máximo un contrato a plazo fijo?",
+          "opciones": [
+            "Un año",
+            "Diez años",
+            "Un día",
+            "Para siempre"
+          ],
+          "respuesta": 0,
+          "explicacion": "En general, un contrato a plazo fijo no puede durar más de un año. Para gerentes o profesionales, hasta dos años.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 159 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u2-l1-e07",
+          "unidad": 2,
+          "leccion": 1,
+          "tipo": "caso_practico",
+          "dificultad": 2,
+          "concepto": "contrato",
+          "caso": "A Ignacio le renovaron su contrato a plazo fijo por segunda vez.",
+          "enunciado": "¿Qué pasa con su contrato?",
+          "opciones": [
+            "Sigue a plazo fijo",
+            "Pasa a ser indefinido",
+            "Termina",
+            "Se borra"
+          ],
+          "respuesta": 1,
+          "explicacion": "La segunda renovación transforma el contrato a plazo fijo en indefinido.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 159 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u2-l1-e08",
+          "unidad": 2,
+          "leccion": 1,
+          "tipo": "caso_practico",
+          "dificultad": 2,
+          "concepto": "contrato",
+          "caso": "Valentina trabaja hace un mes en un café y nunca le pasaron un contrato escrito.",
+          "enunciado": "¿Qué condiciones valen?",
+          "opciones": [
+            "Ninguna: no tiene derechos",
+            "Las que diga el empleador",
+            "Las que declare Valentina",
+            "Ella debe pagar una multa"
+          ],
+          "respuesta": 2,
+          "explicacion": "Si no hay contrato escrito, la ley presume que valen las condiciones que declare la trabajadora, y el empleador puede ser multado.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 9 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u2-l1-e09",
+          "unidad": 2,
+          "leccion": 1,
+          "tipo": "unir_pares",
+          "dificultad": 3,
+          "concepto": "contrato",
+          "enunciado": "Une cada dato del contrato.",
+          "pares": [
+            {
+              "a": "Plazo para escribir el contrato",
+              "b": "15 días"
+            },
+            {
+              "a": "Copias que se firman",
+              "b": "Dos"
+            },
+            {
+              "a": "Máximo de un plazo fijo",
+              "b": "Un año"
+            }
+          ],
+          "explicacion": "El contrato se escribe en 15 días, se firma en 2 copias y, si es a plazo fijo, dura como máximo un año.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 9 y 159 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u2-l1-e10",
+          "unidad": 2,
+          "leccion": 1,
+          "tipo": "identificar_error",
+          "dificultad": 3,
+          "concepto": "contrato",
+          "enunciado": "Toca la parte que está equivocada.",
+          "segmentos": [
+            "Si te renuevan el plazo fijo por segunda vez, ",
+            "el contrato se termina."
+          ],
+          "respuesta": 1,
+          "correccion": "pasa a ser indefinido.",
+          "explicacion": "La segunda renovación transforma el contrato en indefinido.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 159 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        }
+      ]
+    },
+    {
+      "id": "u2-l2",
+      "numero": 2,
+      "titulo": "Tu liquidación de sueldo",
+      "objetivo": "Entender los descuentos de tu sueldo.",
+      "tipoNodo": "leccion",
+      "guia": [
+        {
+          "titulo": "La liquidación",
+          "texto": "Es el comprobante que te entregan con el sueldo. Dice cuánto ganaste, cómo se calculó y qué te descontaron.",
+          "fuentes": [
+            {
+              "archivo": "Código del Trabajo",
+              "articulo": "Art. 54 CT",
+              "fueraDelMaterial": true
+            }
+          ],
+          "revisar": false
+        },
+        {
+          "titulo": "Los descuentos",
+          "texto": "De tu sueldo se descuenta un 10% para tu pensión en la AFP, más su comisión, y un 7% para tu salud.",
+          "fuentes": [
+            {
+              "archivo": "DL N° 3.500",
+              "articulo": "Art. 17 y 84 DL 3.500",
+              "fueraDelMaterial": true
+            }
+          ],
+          "revisar": false
+        },
+        {
+          "titulo": "Seguro de cesantía",
+          "texto": "Con contrato indefinido aportas un 0,6% a un seguro que te ayuda si te quedas sin trabajo.",
+          "fuentes": [
+            {
+              "archivo": "Ley N° 19.728",
+              "articulo": "Art. 5 Ley 19.728",
+              "fueraDelMaterial": true
+            }
+          ],
+          "revisar": false
+        }
+      ],
+      "ejercicios": [
+        {
+          "id": "u2-l2-e01",
+          "unidad": 2,
+          "leccion": 2,
+          "tipo": "seleccion_multiple",
+          "dificultad": 1,
+          "concepto": "liquidacion",
+          "enunciado": "¿Qué es la liquidación de sueldo?",
+          "opciones": [
+            "El comprobante de tu pago",
+            "Un juego de cartas",
+            "Una multa",
+            "Tu contrato"
+          ],
+          "respuesta": 0,
+          "explicacion": "Es el comprobante que te entrega el empleador con el monto pagado, cómo se calculó y los descuentos.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 54 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u2-l2-e02",
+          "unidad": 2,
+          "leccion": 2,
+          "tipo": "verdadero_falso",
+          "dificultad": 1,
+          "concepto": "liquidacion",
+          "enunciado": "De tu sueldo se descuenta dinero para tu pensión y tu salud.",
+          "respuesta": true,
+          "explicacion": "Verdadero. Se descuenta un 10% para la pensión (AFP) y un 7% para salud.",
+          "fuente": {
+            "archivo": "DL N° 3.500",
+            "articulo": "Art. 17 y 84 DL 3.500",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u2-l2-e03",
+          "unidad": 2,
+          "leccion": 2,
+          "tipo": "completar",
+          "dificultad": 1,
+          "concepto": "liquidacion",
+          "enunciado": "Para tu pensión se descuenta el ___% de tu sueldo.",
+          "respuesta": "10",
+          "banco": [
+            "10",
+            "1",
+            "90"
+          ],
+          "explicacion": "Se cotiza el 10% del sueldo en tu cuenta de la AFP, más la comisión de la AFP.",
+          "fuente": {
+            "archivo": "DL N° 3.500",
+            "articulo": "Art. 17 DL 3.500",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u2-l2-e04",
+          "unidad": 2,
+          "leccion": 2,
+          "tipo": "completar",
+          "dificultad": 1,
+          "concepto": "liquidacion",
+          "enunciado": "Para tu salud se descuenta el ___% de tu sueldo.",
+          "respuesta": "7",
+          "banco": [
+            "7",
+            "70",
+            "0"
+          ],
+          "explicacion": "La cotización obligatoria de salud es del 7% del sueldo.",
+          "fuente": {
+            "archivo": "DL N° 3.500",
+            "articulo": "Art. 84 DL 3.500",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u2-l2-e05",
+          "unidad": 2,
+          "leccion": 2,
+          "tipo": "seleccion_multiple",
+          "dificultad": 1,
+          "concepto": "liquidacion",
+          "enunciado": "¿Para qué sirve lo que se descuenta para la AFP?",
+          "opciones": [
+            "Para tu pensión cuando jubiles",
+            "Para tu empleador",
+            "Para tus vacaciones",
+            "Para el almuerzo"
+          ],
+          "respuesta": 0,
+          "explicacion": "Se guarda en tu cuenta de la AFP para tu pensión.",
+          "fuente": {
+            "archivo": "DL N° 3.500",
+            "articulo": "Art. 17 DL 3.500",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u2-l2-e06",
+          "unidad": 2,
+          "leccion": 2,
+          "tipo": "caso_practico",
+          "dificultad": 2,
+          "concepto": "liquidacion",
+          "caso": "Martina gana $600.000 al mes.",
+          "enunciado": "¿Cuánto se descuenta para su pensión, sin la comisión?",
+          "opciones": [
+            "$6.000",
+            "$60.000",
+            "$600.000",
+            "$42.000"
+          ],
+          "respuesta": 1,
+          "explicacion": "El 10% de $600.000 es $60.000.",
+          "fuente": {
+            "archivo": "DL N° 3.500",
+            "articulo": "Art. 17 DL 3.500",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u2-l2-e07",
+          "unidad": 2,
+          "leccion": 2,
+          "tipo": "caso_practico",
+          "dificultad": 2,
+          "concepto": "liquidacion",
+          "caso": "Martina gana $600.000 al mes.",
+          "enunciado": "¿Cuánto se descuenta para su salud?",
+          "opciones": [
+            "$60.000",
+            "$7.000",
+            "$42.000",
+            "$420.000"
+          ],
+          "respuesta": 2,
+          "explicacion": "El 7% de $600.000 es $42.000.",
+          "fuente": {
+            "archivo": "DL N° 3.500",
+            "articulo": "Art. 84 DL 3.500",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u2-l2-e08",
+          "unidad": 2,
+          "leccion": 2,
+          "tipo": "seleccion_multiple",
+          "dificultad": 2,
+          "concepto": "liquidacion",
+          "enunciado": "Con contrato indefinido, ¿cuánto aportas al seguro de cesantía?",
+          "opciones": [
+            "El 50% de tu sueldo",
+            "Nada, nunca",
+            "Todo tu sueldo",
+            "El 0,6% de tu sueldo"
+          ],
+          "respuesta": 3,
+          "explicacion": "Con contrato indefinido aportas un 0,6% y tu empleador un 2,4%.",
+          "fuente": {
+            "archivo": "Ley N° 19.728",
+            "articulo": "Art. 5 Ley 19.728",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u2-l2-e09",
+          "unidad": 2,
+          "leccion": 2,
+          "tipo": "clasificar",
+          "dificultad": 3,
+          "concepto": "liquidacion",
+          "enunciado": "¿Es un descuento legal de tu sueldo?",
+          "categorias": [
+            "Sí",
+            "No"
+          ],
+          "elementos": [
+            {
+              "texto": "Cotización para la AFP",
+              "categoria": 0
+            },
+            {
+              "texto": "Cotización de salud",
+              "categoria": 0
+            },
+            {
+              "texto": "El almuerzo de tu jefe",
+              "categoria": 1
+            },
+            {
+              "texto": "El arriendo de la tienda",
+              "categoria": 1
+            }
+          ],
+          "explicacion": "Por ley se descuenta para tu pensión (10%), tu salud (7%) y, con contrato indefinido, el seguro de cesantía (0,6%).",
+          "fuente": {
+            "archivo": "DL N° 3.500",
+            "articulo": "Art. 17 y 84 DL 3.500",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u2-l2-e10",
+          "unidad": 2,
+          "leccion": 2,
+          "tipo": "unir_pares",
+          "dificultad": 3,
+          "concepto": "liquidacion",
+          "enunciado": "Une cada descuento con su porcentaje.",
+          "pares": [
+            {
+              "a": "Pensión en la AFP",
+              "b": "10%"
+            },
+            {
+              "a": "Salud",
+              "b": "7%"
+            },
+            {
+              "a": "Seguro de cesantía, si es indefinido",
+              "b": "0,6%"
+            }
+          ],
+          "explicacion": "Pensión en la AFP: 10%. Salud: 7%. Seguro de cesantía con contrato indefinido: 0,6%.",
+          "fuente": {
+            "archivo": "Ley N° 19.728",
+            "articulo": "Art. 5 Ley 19.728",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        }
+      ]
+    },
+    {
+      "id": "u2-l3",
+      "numero": 3,
+      "titulo": "Respeto en el trabajo",
+      "objetivo": "Reconocer el acoso y la discriminación.",
+      "tipoNodo": "leccion",
+      "guia": [
+        {
+          "titulo": "Trato digno",
+          "texto": "En el trabajo te deben tratar con respeto, sin violencia y sin discriminación. Lo dice el artículo 2 del Código del Trabajo.",
+          "fuentes": [
+            {
+              "archivo": "Código del Trabajo",
+              "articulo": "Art. 2 CT",
+              "fueraDelMaterial": true
+            }
+          ],
+          "revisar": false
+        },
+        {
+          "titulo": "Acoso laboral",
+          "texto": "Es cuando alguien te agrede, te hostiga o te humilla en el trabajo. Basta con que pase una sola vez.",
+          "fuentes": [
+            {
+              "archivo": "Código del Trabajo",
+              "articulo": "Art. 2 CT",
+              "fueraDelMaterial": true
+            }
+          ],
+          "revisar": false
+        },
+        {
+          "titulo": "Discriminación",
+          "texto": "No te pueden tratar distinto por tu apariencia, edad, sexo, nacionalidad o religión, entre otros motivos.",
+          "fuentes": [
+            {
+              "archivo": "Código del Trabajo",
+              "articulo": "Art. 2 CT",
+              "fueraDelMaterial": true
+            }
+          ],
+          "revisar": false
+        }
+      ],
+      "ejercicios": [
+        {
+          "id": "u2-l3-e01",
+          "unidad": 2,
+          "leccion": 3,
+          "tipo": "seleccion_multiple",
+          "dificultad": 1,
+          "concepto": "respeto",
+          "enunciado": "¿Cómo te deben tratar en el trabajo?",
+          "opciones": [
+            "Como quiera el jefe",
+            "Con respeto y sin violencia",
+            "A gritos",
+            "Sin hablarte"
+          ],
+          "respuesta": 1,
+          "explicacion": "Las relaciones de trabajo deben ser libres de violencia y respetar tu dignidad.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 2 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u2-l3-e02",
+          "unidad": 2,
+          "leccion": 3,
+          "tipo": "verdadero_falso",
+          "dificultad": 1,
+          "concepto": "respeto",
+          "enunciado": "Para que sea acoso laboral, tiene que pasar muchas veces.",
+          "respuesta": false,
+          "explicacion": "Falso. Puede ser acoso laboral aunque pase una sola vez.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 2 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u2-l3-e03",
+          "unidad": 2,
+          "leccion": 3,
+          "tipo": "verdadero_falso",
+          "dificultad": 1,
+          "concepto": "respeto",
+          "enunciado": "No te pueden rechazar en un trabajo por tu apariencia.",
+          "respuesta": true,
+          "explicacion": "Verdadero. La apariencia personal es uno de los motivos de discriminación prohibidos.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 2 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u2-l3-e04",
+          "unidad": 2,
+          "leccion": 3,
+          "tipo": "completar",
+          "dificultad": 1,
+          "concepto": "respeto",
+          "enunciado": "Humillar o agredir a alguien en el trabajo se llama acoso ___.",
+          "respuesta": "laboral",
+          "banco": [
+            "laboral",
+            "musical",
+            "deportivo"
+          ],
+          "explicacion": "El acoso laboral es agredir, hostigar o humillar a alguien en el trabajo, aunque pase una sola vez.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 2 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u2-l3-e05",
+          "unidad": 2,
+          "leccion": 3,
+          "tipo": "seleccion_multiple",
+          "dificultad": 1,
+          "concepto": "respeto",
+          "enunciado": "¿Cuál de estos es un motivo de discriminación prohibido?",
+          "opciones": [
+            "Los estudios que pide el cargo",
+            "Tu nacionalidad",
+            "La experiencia que pide el cargo",
+            "Tu puntualidad"
+          ],
+          "respuesta": 1,
+          "explicacion": "Discriminar por nacionalidad está prohibido. Pedir los estudios o la experiencia que el cargo necesita no es discriminación.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 2 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u2-l3-e06",
+          "unidad": 2,
+          "leccion": 3,
+          "tipo": "caso_practico",
+          "dificultad": 2,
+          "concepto": "respeto",
+          "caso": "Un cliente le grita e insulta a Pablo, que atiende en un local de comida.",
+          "enunciado": "¿La ley protege a Pablo?",
+          "opciones": [
+            "No: solo cuenta el jefe",
+            "No: el cliente siempre tiene la razón",
+            "Sí: también lo protege de clientes",
+            "Solo si pasa tres veces"
+          ],
+          "respuesta": 2,
+          "explicacion": "Sí. La ley también considera la violencia de clientes, proveedores o usuarios contra quienes trabajan.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 2 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u2-l3-e07",
+          "unidad": 2,
+          "leccion": 3,
+          "tipo": "caso_practico",
+          "dificultad": 2,
+          "concepto": "respeto",
+          "caso": "Un jefe se burla todos los días del acento de Camila delante de sus compañeros.",
+          "enunciado": "¿Qué es esto?",
+          "opciones": [
+            "Una broma permitida",
+            "Parte del trabajo",
+            "Una capacitación",
+            "Acoso laboral"
+          ],
+          "respuesta": 3,
+          "explicacion": "Hostigar o humillar a alguien en el trabajo es acoso laboral. Y burlarse de su idioma o su origen también es discriminación.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 2 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u2-l3-e08",
+          "unidad": 2,
+          "leccion": 3,
+          "tipo": "clasificar",
+          "dificultad": 2,
+          "concepto": "respeto",
+          "enunciado": "¿Está permitido en el trabajo?",
+          "categorias": [
+            "Permitido",
+            "Prohibido"
+          ],
+          "elementos": [
+            {
+              "texto": "Pedir los estudios del cargo",
+              "categoria": 0
+            },
+            {
+              "texto": "Pedir experiencia en el área",
+              "categoria": 0
+            },
+            {
+              "texto": "Rechazar a alguien por su edad",
+              "categoria": 1
+            },
+            {
+              "texto": "Humillar a un compañero",
+              "categoria": 1
+            }
+          ],
+          "explicacion": "Pedir lo que el cargo necesita está permitido. Discriminar por edad o humillar a alguien está prohibido.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 2 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u2-l3-e09",
+          "unidad": 2,
+          "leccion": 3,
+          "tipo": "seleccion_multiple",
+          "dificultad": 3,
+          "concepto": "respeto",
+          "enunciado": "Además del acoso laboral, ¿qué otro acoso prohíbe el Código del Trabajo?",
+          "opciones": [
+            "Ninguno más",
+            "El acoso sexual",
+            "Solo el acoso entre jefes",
+            "Solo el acoso por teléfono"
+          ],
+          "respuesta": 1,
+          "explicacion": "El artículo 2 prohíbe el acoso sexual, el acoso laboral y la violencia de terceros, como los clientes.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 2 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u2-l3-e10",
+          "unidad": 2,
+          "leccion": 3,
+          "tipo": "identificar_error",
+          "dificultad": 3,
+          "concepto": "respeto",
+          "enunciado": "Toca la parte que está equivocada.",
+          "segmentos": [
+            "El acoso laboral puede venir del jefe o de compañeros, ",
+            "pero solo cuenta si pasa diez veces."
+          ],
+          "respuesta": 1,
+          "correccion": "y cuenta aunque pase una sola vez.",
+          "explicacion": "El acoso laboral puede venir del empleador o de compañeros, y basta con que ocurra una vez.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 2 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        }
+      ]
+    },
+    {
+      "id": "u2-l4",
+      "numero": 4,
+      "titulo": "Cuando el trabajo termina",
+      "objetivo": "Saber qué hacer si renuncias o te despiden.",
+      "tipoNodo": "leccion",
+      "guia": [
+        {
+          "titulo": "Si renuncias",
+          "texto": "Debes avisarle a tu empleador con al menos 30 días de anticipación.",
+          "fuentes": [
+            {
+              "archivo": "Código del Trabajo",
+              "articulo": "Art. 159 CT",
+              "fueraDelMaterial": true
+            }
+          ],
+          "revisar": false
+        },
+        {
+          "titulo": "Si te despiden",
+          "texto": "El despido va por escrito y dice la causa. Si es por necesidades de la empresa, te avisan con 30 días o te pagan un mes de sueldo.",
+          "fuentes": [
+            {
+              "archivo": "Código del Trabajo",
+              "articulo": "Art. 162 CT",
+              "fueraDelMaterial": true
+            }
+          ],
+          "revisar": false
+        },
+        {
+          "titulo": "El finiquito",
+          "texto": "Es el documento que cierra el trabajo. Va por escrito, se firma ante un ministro de fe o en la web de la Dirección del Trabajo y se paga en 10 días hábiles.",
+          "fuentes": [
+            {
+              "archivo": "Código del Trabajo",
+              "articulo": "Art. 177 CT",
+              "fueraDelMaterial": true
+            }
+          ],
+          "revisar": false
+        }
+      ],
+      "ejercicios": [
+        {
+          "id": "u2-l4-e01",
+          "unidad": 2,
+          "leccion": 4,
+          "tipo": "seleccion_multiple",
+          "dificultad": 1,
+          "concepto": "termino",
+          "enunciado": "Si quieres renunciar, ¿con cuánta anticipación debes avisar?",
+          "opciones": [
+            "Un minuto antes",
+            "Un año antes",
+            "Al menos 30 días antes",
+            "No hay que avisar"
+          ],
+          "respuesta": 2,
+          "explicacion": "La renuncia se avisa al empleador con al menos 30 días de anticipación.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 159 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u2-l4-e02",
+          "unidad": 2,
+          "leccion": 4,
+          "tipo": "verdadero_falso",
+          "dificultad": 1,
+          "concepto": "termino",
+          "enunciado": "El finiquito cierra tu trabajo y debe ir por escrito.",
+          "respuesta": true,
+          "explicacion": "Verdadero. El finiquito, la renuncia y el mutuo acuerdo deben constar por escrito.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 177 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u2-l4-e03",
+          "unidad": 2,
+          "leccion": 4,
+          "tipo": "completar",
+          "dificultad": 1,
+          "concepto": "termino",
+          "enunciado": "Si te despiden, la causa se informa por ___.",
+          "respuesta": "escrito",
+          "banco": [
+            "escrito",
+            "señas",
+            "radio"
+          ],
+          "explicacion": "El despido se comunica por escrito, diciendo la causa y los hechos.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 162 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u2-l4-e04",
+          "unidad": 2,
+          "leccion": 4,
+          "tipo": "verdadero_falso",
+          "dificultad": 1,
+          "concepto": "termino",
+          "enunciado": "Te pueden despedir solo con un grito, sin ningún papel.",
+          "respuesta": false,
+          "explicacion": "Falso. El aviso de despido debe ir por escrito y decir la causa.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 162 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u2-l4-e05",
+          "unidad": 2,
+          "leccion": 4,
+          "tipo": "seleccion_multiple",
+          "dificultad": 1,
+          "concepto": "termino",
+          "enunciado": "¿Qué es el finiquito?",
+          "opciones": [
+            "Un tipo de sueldo",
+            "Un día de vacaciones",
+            "El documento que cierra el trabajo",
+            "Un bono de fin de año"
+          ],
+          "respuesta": 2,
+          "explicacion": "Es el documento escrito que da por terminado el trabajo y muestra lo que te pagan al final.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 177 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u2-l4-e06",
+          "unidad": 2,
+          "leccion": 4,
+          "tipo": "seleccion_multiple",
+          "dificultad": 2,
+          "concepto": "termino",
+          "enunciado": "¿En cuántos días hábiles te deben pagar el finiquito?",
+          "opciones": [
+            "1 año",
+            "100 días",
+            "Nunca",
+            "10 días hábiles"
+          ],
+          "respuesta": 3,
+          "explicacion": "El empleador debe tener listo el finiquito y su pago dentro de 10 días hábiles desde que terminas.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 177 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u2-l4-e07",
+          "unidad": 2,
+          "leccion": 4,
+          "tipo": "caso_practico",
+          "dificultad": 2,
+          "concepto": "termino",
+          "caso": "A Tomás lo despiden por necesidades de la empresa, sin avisarle con 30 días.",
+          "enunciado": "¿Qué le corresponde?",
+          "opciones": [
+            "Un mes de sueldo en vez del aviso",
+            "Nada",
+            "Una disculpa",
+            "Trabajar gratis un mes"
+          ],
+          "respuesta": 0,
+          "explicacion": "Si no le avisan con 30 días, el empleador debe pagarle un mes de sueldo en lugar del aviso.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 162 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u2-l4-e08",
+          "unidad": 2,
+          "leccion": 4,
+          "tipo": "unir_pares",
+          "dificultad": 2,
+          "concepto": "termino",
+          "enunciado": "Une cada situación con su regla.",
+          "pares": [
+            {
+              "a": "Renuncia",
+              "b": "Avisar con 30 días"
+            },
+            {
+              "a": "Despido",
+              "b": "Por escrito y con la causa"
+            },
+            {
+              "a": "Finiquito",
+              "b": "Pagarlo en 10 días hábiles"
+            }
+          ],
+          "explicacion": "La renuncia se avisa con 30 días, el despido va por escrito con su causa y el finiquito se paga en 10 días hábiles.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 159, 162 y 177 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u2-l4-e09",
+          "unidad": 2,
+          "leccion": 4,
+          "tipo": "caso_practico",
+          "dificultad": 3,
+          "concepto": "termino",
+          "caso": "Ana trabajó 3 años y la despiden por necesidades de la empresa.",
+          "enunciado": "¿Qué indemnización le corresponde?",
+          "opciones": [
+            "Nada",
+            "Un día de sueldo",
+            "Tres meses de sueldo",
+            "Diez años de sueldo"
+          ],
+          "respuesta": 2,
+          "explicacion": "Con un año o más, por necesidades de la empresa le corresponden 30 días de sueldo por cada año: 3 años, 3 meses.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 163 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u2-l4-e10",
+          "unidad": 2,
+          "leccion": 4,
+          "tipo": "identificar_error",
+          "dificultad": 3,
+          "concepto": "termino",
+          "enunciado": "Toca la parte que está equivocada.",
+          "segmentos": [
+            "El finiquito se firma ante un ministro de fe ",
+            "o en la casa del jefe, sin testigos."
+          ],
+          "respuesta": 1,
+          "correccion": "o en la web de la Dirección del Trabajo.",
+          "explicacion": "Se firma ante un ministro de fe, como un inspector del trabajo o un notario, o en línea en la Dirección del Trabajo.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 177 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        }
+      ]
+    },
+    {
+      "id": "u2-l5",
+      "numero": 5,
+      "titulo": "Artículos clave",
+      "objetivo": "Conocer los artículos más importantes del Código del Trabajo.",
+      "tipoNodo": "leccion",
+      "guia": [
+        {
+          "titulo": "Respeto y contrato",
+          "texto": "Art. 2: trato digno y sin discriminación. Art. 9: contrato por escrito. Art. 13: edades para trabajar.",
+          "fuentes": [
+            {
+              "archivo": "Código del Trabajo",
+              "articulo": "Art. 2, 9 y 13 CT",
+              "fueraDelMaterial": true
+            }
+          ],
+          "revisar": false
+        },
+        {
+          "titulo": "Tu tiempo",
+          "texto": "Art. 22: horas de trabajo a la semana. Art. 31: horas extra. Art. 67: vacaciones.",
+          "fuentes": [
+            {
+              "archivo": "Código del Trabajo",
+              "articulo": "Art. 22, 31 y 67 CT",
+              "fueraDelMaterial": true
+            }
+          ],
+          "revisar": false
+        },
+        {
+          "titulo": "Sueldo y final",
+          "texto": "Art. 44: ningún sueldo bajo el mínimo. Art. 159: cómo termina el contrato. Art. 177: el finiquito.",
+          "fuentes": [
+            {
+              "archivo": "Código del Trabajo",
+              "articulo": "Art. 44, 159 y 177 CT",
+              "fueraDelMaterial": true
+            }
+          ],
+          "revisar": false
+        }
+      ],
+      "ejercicios": [
+        {
+          "id": "u2-l5-e01",
+          "unidad": 2,
+          "leccion": 5,
+          "tipo": "seleccion_multiple",
+          "dificultad": 1,
+          "concepto": "articulos-clave",
+          "enunciado": "El artículo 22 del Código del Trabajo habla de...",
+          "opciones": [
+            "Las vacaciones",
+            "Los uniformes",
+            "Las fiestas",
+            "Las horas de trabajo"
+          ],
+          "respuesta": 3,
+          "explicacion": "El art. 22 fija la jornada de trabajo: hoy, 42 horas a la semana.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 22 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u2-l5-e02",
+          "unidad": 2,
+          "leccion": 5,
+          "tipo": "verdadero_falso",
+          "dificultad": 1,
+          "concepto": "articulos-clave",
+          "enunciado": "El artículo 67 habla de las vacaciones.",
+          "respuesta": true,
+          "explicacion": "Verdadero. El art. 67 da 15 días hábiles de vacaciones después de un año de trabajo.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 67 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u2-l5-e03",
+          "unidad": 2,
+          "leccion": 5,
+          "tipo": "seleccion_multiple",
+          "dificultad": 1,
+          "concepto": "articulos-clave",
+          "enunciado": "El artículo 2 protege tu derecho a...",
+          "opciones": [
+            "Tener bicicleta",
+            "Un trato digno y sin discriminación",
+            "Elegir el uniforme",
+            "Usar el celular siempre"
+          ],
+          "respuesta": 1,
+          "explicacion": "El art. 2 exige un trato respetuoso, sin violencia ni discriminación.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 2 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u2-l5-e04",
+          "unidad": 2,
+          "leccion": 5,
+          "tipo": "completar",
+          "dificultad": 1,
+          "concepto": "articulos-clave",
+          "enunciado": "El artículo 9 dice que el contrato debe estar por ___.",
+          "respuesta": "escrito",
+          "banco": [
+            "escrito",
+            "teléfono",
+            "mensaje de voz"
+          ],
+          "explicacion": "El art. 9 dice que el contrato debe constar por escrito y firmarse en dos copias.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 9 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u2-l5-e05",
+          "unidad": 2,
+          "leccion": 5,
+          "tipo": "verdadero_falso",
+          "dificultad": 1,
+          "concepto": "articulos-clave",
+          "enunciado": "El artículo 31 habla de las horas extra.",
+          "respuesta": true,
+          "explicacion": "Verdadero. El art. 31 permite hasta 2 horas extra por día.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 31 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u2-l5-e06",
+          "unidad": 2,
+          "leccion": 5,
+          "tipo": "unir_pares",
+          "dificultad": 2,
+          "concepto": "articulos-clave",
+          "enunciado": "Une cada artículo con su tema.",
+          "pares": [
+            {
+              "a": "Art. 13",
+              "b": "Edades para trabajar"
+            },
+            {
+              "a": "Art. 22",
+              "b": "Horas de trabajo"
+            },
+            {
+              "a": "Art. 67",
+              "b": "Vacaciones"
+            },
+            {
+              "a": "Art. 177",
+              "b": "Finiquito"
+            }
+          ],
+          "explicacion": "Art. 13: edades. Art. 22: jornada. Art. 67: vacaciones. Art. 177: finiquito.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 13, 22, 67 y 177 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u2-l5-e07",
+          "unidad": 2,
+          "leccion": 5,
+          "tipo": "seleccion_multiple",
+          "dificultad": 2,
+          "concepto": "articulos-clave",
+          "enunciado": "El artículo 44 dice que ningún sueldo puede ser menor que...",
+          "opciones": [
+            "El sueldo del jefe",
+            "El sueldo mínimo",
+            "Cien pesos",
+            "El precio del pan"
+          ],
+          "respuesta": 1,
+          "explicacion": "El art. 44 dice que el sueldo mensual no puede ser menor que el ingreso mínimo mensual.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 44 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u2-l5-e08",
+          "unidad": 2,
+          "leccion": 5,
+          "tipo": "clasificar",
+          "dificultad": 2,
+          "concepto": "articulos-clave",
+          "enunciado": "¿De qué tema es cada artículo?",
+          "categorias": [
+            "Tiempo de trabajo",
+            "Contrato y término"
+          ],
+          "elementos": [
+            {
+              "texto": "Art. 22",
+              "categoria": 0
+            },
+            {
+              "texto": "Art. 31",
+              "categoria": 0
+            },
+            {
+              "texto": "Art. 9",
+              "categoria": 1
+            },
+            {
+              "texto": "Art. 159",
+              "categoria": 1
+            }
+          ],
+          "explicacion": "Los arts. 22 y 31 tratan de la jornada y las horas extra. Los arts. 9 y 159, del contrato y de cómo termina.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 9, 22, 31 y 159 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u2-l5-e09",
+          "unidad": 2,
+          "leccion": 5,
+          "tipo": "caso_practico",
+          "dificultad": 3,
+          "concepto": "articulos-clave",
+          "caso": "Javiera, de 16 años, quiere saber qué reglas tiene para trabajar en vacaciones.",
+          "enunciado": "¿Dónde le conviene buscar?",
+          "opciones": [
+            "En los artículos 67 y 177",
+            "En el artículo 9",
+            "En ninguno",
+            "En los artículos 13 y 14"
+          ],
+          "respuesta": 3,
+          "explicacion": "Los arts. 13 y 14 explican desde qué edad se puede trabajar y las reglas para menores de 18.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 13 y 14 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u2-l5-e10",
+          "unidad": 2,
+          "leccion": 5,
+          "tipo": "identificar_error",
+          "dificultad": 3,
+          "concepto": "articulos-clave",
+          "enunciado": "Toca la parte que está equivocada.",
+          "segmentos": [
+            "El artículo 67 da 15 días hábiles de vacaciones, ",
+            "y el artículo 22 habla del finiquito."
+          ],
+          "respuesta": 1,
+          "correccion": "y el artículo 22 habla de la jornada.",
+          "explicacion": "El art. 22 fija la jornada de trabajo. El finiquito está en el art. 177.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 22 y 177 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        }
+      ]
+    }
+  ]
+}

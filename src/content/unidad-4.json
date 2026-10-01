@@ -1,0 +1,1413 @@
+{
+  "unidad": 4,
+  "titulo": "Tu voz en el trabajo",
+  "descripcion": "Sindicatos, igualdad, cómo reclamar, boletas de honorarios y los derechos de mamás y papás que trabajan.",
+  "fueraDelMaterial": false,
+  "cofreDespuesDe": 3,
+  "lecciones": [
+    {
+      "id": "u4-l1",
+      "numero": 1,
+      "titulo": "Sindicatos",
+      "objetivo": "Saber qué es un sindicato y tus derechos si te unes.",
+      "tipoNodo": "leccion",
+      "guia": [
+        {
+          "titulo": "¿Qué es?",
+          "texto": "Un sindicato es una organización de trabajadores que se unen para defender sus derechos. Se puede formar sin pedir permiso a nadie.",
+          "fuentes": [
+            {
+              "archivo": "Código del Trabajo",
+              "articulo": "Art. 212 CT",
+              "fueraDelMaterial": true
+            }
+          ],
+          "revisar": false
+        },
+        {
+          "titulo": "Tú decides",
+          "texto": "Unirte a un sindicato es voluntario. Nadie te puede obligar a entrar ni impedir que salgas. Si eres menor de edad, no necesitas autorización.",
+          "fuentes": [
+            {
+              "archivo": "Código del Trabajo",
+              "articulo": "Art. 214 CT",
+              "fueraDelMaterial": true
+            }
+          ],
+          "revisar": false
+        },
+        {
+          "titulo": "Sin castigos",
+          "texto": "No te pueden despedir, perjudicar ni negar un trabajo por estar o no estar en un sindicato.",
+          "fuentes": [
+            {
+              "archivo": "Código del Trabajo",
+              "articulo": "Art. 215 CT",
+              "fueraDelMaterial": true
+            }
+          ],
+          "revisar": false
+        }
+      ],
+      "ejercicios": [
+        {
+          "id": "u4-l1-e01",
+          "unidad": 4,
+          "leccion": 1,
+          "tipo": "seleccion_multiple",
+          "dificultad": 1,
+          "concepto": "sindicatos",
+          "enunciado": "¿Qué es un sindicato?",
+          "opciones": [
+            "Una organización de trabajadores",
+            "Una tienda del mall",
+            "Un tipo de contrato",
+            "Un día feriado"
+          ],
+          "respuesta": 0,
+          "explicacion": "Es una organización que forman los trabajadores. La ley les reconoce el derecho a formarla sin autorización previa.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 212 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u4-l1-e02",
+          "unidad": 4,
+          "leccion": 1,
+          "tipo": "verdadero_falso",
+          "dificultad": 1,
+          "concepto": "sindicatos",
+          "enunciado": "Te pueden obligar a entrar a un sindicato para darte un trabajo.",
+          "respuesta": false,
+          "explicacion": "Falso. Unirte es voluntario y nadie puede ser obligado a entrar a un sindicato para trabajar.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Arts. 214 y 215 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u4-l1-e03",
+          "unidad": 4,
+          "leccion": 1,
+          "tipo": "completar",
+          "dificultad": 1,
+          "concepto": "sindicatos",
+          "enunciado": "Unirte a un sindicato es ___.",
+          "respuesta": "voluntario",
+          "banco": [
+            "voluntario",
+            "obligatorio",
+            "prohibido"
+          ],
+          "explicacion": "La afiliación a un sindicato es voluntaria y personal: la decides tú.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 214 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u4-l1-e04",
+          "unidad": 4,
+          "leccion": 1,
+          "tipo": "verdadero_falso",
+          "dificultad": 1,
+          "concepto": "sindicatos",
+          "enunciado": "Si tienes menos de 18 años, puedes unirte a un sindicato sin autorización.",
+          "respuesta": true,
+          "explicacion": "Verdadero. Los menores no necesitan autorización para unirse a un sindicato ni para participar en su dirección.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 214 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u4-l1-e05",
+          "unidad": 4,
+          "leccion": 1,
+          "tipo": "seleccion_multiple",
+          "dificultad": 1,
+          "concepto": "sindicatos",
+          "enunciado": "¿Te pueden despedir por estar en un sindicato?",
+          "opciones": [
+            "Sí, siempre",
+            "No, está prohibido",
+            "Solo los lunes",
+            "Sí, si eres joven"
+          ],
+          "respuesta": 1,
+          "explicacion": "Está prohibido despedir o perjudicar a un trabajador por estar en un sindicato o participar en sus actividades.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 215 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u4-l1-e06",
+          "unidad": 4,
+          "leccion": 1,
+          "tipo": "caso_practico",
+          "dificultad": 2,
+          "concepto": "sindicatos",
+          "caso": "Isidora quiere salirse del sindicato de su empresa, pero el presidente del sindicato le dice que no puede.",
+          "enunciado": "¿Quién tiene razón?",
+          "opciones": [
+            "El presidente",
+            "Nadie",
+            "Isidora: puede salirse",
+            "El dueño de la empresa"
+          ],
+          "respuesta": 2,
+          "explicacion": "Nadie puede impedir que un trabajador se salga de un sindicato.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 214 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u4-l1-e07",
+          "unidad": 4,
+          "leccion": 1,
+          "tipo": "caso_practico",
+          "dificultad": 2,
+          "concepto": "sindicatos",
+          "caso": "En una entrevista le dicen a Lucas que no lo contratarán si se une al sindicato.",
+          "enunciado": "¿Es legal?",
+          "opciones": [
+            "Sí, es normal",
+            "Solo si es menor",
+            "Sí, si lo firma",
+            "No, no pueden condicionar el empleo"
+          ],
+          "respuesta": 3,
+          "explicacion": "No se puede condicionar un trabajo a que te unas o no a un sindicato.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 215 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u4-l1-e08",
+          "unidad": 4,
+          "leccion": 1,
+          "tipo": "seleccion_multiple",
+          "dificultad": 2,
+          "concepto": "sindicatos",
+          "enunciado": "En una empresa de 50 trabajadores o menos, ¿cuántos pueden formar un sindicato?",
+          "opciones": [
+            "Ocho, si son al menos la mitad",
+            "Cien",
+            "Uno solo",
+            "Ninguno"
+          ],
+          "respuesta": 0,
+          "explicacion": "En empresas de 50 trabajadores o menos, pueden formar un sindicato 8 trabajadores que sean al menos el 50% del total.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 227 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u4-l1-e09",
+          "unidad": 4,
+          "leccion": 1,
+          "tipo": "clasificar",
+          "dificultad": 3,
+          "concepto": "sindicatos",
+          "enunciado": "¿Está permitido o prohibido?",
+          "categorias": [
+            "Permitido",
+            "Prohibido"
+          ],
+          "elementos": [
+            {
+              "texto": "Unirte a un sindicato sin permiso",
+              "categoria": 0
+            },
+            {
+              "texto": "Salirte del sindicato cuando quieras",
+              "categoria": 0
+            },
+            {
+              "texto": "Despedirte por estar en un sindicato",
+              "categoria": 1
+            },
+            {
+              "texto": "Obligarte a entrar al sindicato",
+              "categoria": 1
+            },
+            {
+              "texto": "Formar un sindicato sin autorización previa",
+              "categoria": 0
+            }
+          ],
+          "explicacion": "Unirte, salirte y formar sindicatos es libre. Obligarte a entrar o despedirte por ser parte de uno está prohibido.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Arts. 212, 214 y 215 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u4-l1-e10",
+          "unidad": 4,
+          "leccion": 1,
+          "tipo": "identificar_error",
+          "dificultad": 3,
+          "concepto": "sindicatos",
+          "enunciado": "Toca la parte que está equivocada.",
+          "segmentos": [
+            "Si tienes 16 años, ",
+            "necesitas permiso de tus papás ",
+            "para unirte a un sindicato."
+          ],
+          "respuesta": 1,
+          "correccion": "no necesitas autorización",
+          "explicacion": "Los menores de edad no necesitan ninguna autorización para unirse a un sindicato.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 214 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        }
+      ]
+    },
+    {
+      "id": "u4-l2",
+      "numero": 2,
+      "titulo": "Igualdad en el trabajo",
+      "objetivo": "Saber qué no te pueden exigir ni pagar distinto.",
+      "tipoNodo": "leccion",
+      "guia": [
+        {
+          "titulo": "Mismo trabajo, mismo sueldo",
+          "texto": "Si un hombre y una mujer hacen el mismo trabajo, deben ganar lo mismo. Solo valen diferencias objetivas, como la capacidad o la productividad.",
+          "fuentes": [
+            {
+              "archivo": "Código del Trabajo",
+              "articulo": "Art. 62 bis CT",
+              "fueraDelMaterial": true
+            }
+          ],
+          "revisar": false
+        },
+        {
+          "titulo": "Sin test de embarazo",
+          "texto": "Ningún empleador puede pedir un test de embarazo para contratar, renovar el contrato o ascender a una trabajadora.",
+          "fuentes": [
+            {
+              "archivo": "Código del Trabajo",
+              "articulo": "Art. 194 CT",
+              "fueraDelMaterial": true
+            }
+          ],
+          "revisar": false
+        },
+        {
+          "titulo": "Tus deudas no importan",
+          "texto": "En general, no te pueden negar un trabajo por tener deudas ni pedirte un certificado de deudas. Tampoco por haber tenido cáncer.",
+          "fuentes": [
+            {
+              "archivo": "Código del Trabajo",
+              "articulo": "Art. 2 CT",
+              "fueraDelMaterial": true
+            }
+          ],
+          "revisar": false
+        }
+      ],
+      "ejercicios": [
+        {
+          "id": "u4-l2-e01",
+          "unidad": 4,
+          "leccion": 2,
+          "tipo": "verdadero_falso",
+          "dificultad": 1,
+          "concepto": "igualdad",
+          "enunciado": "Un hombre y una mujer que hacen el mismo trabajo deben ganar lo mismo.",
+          "respuesta": true,
+          "explicacion": "Verdadero. El empleador debe respetar la igualdad de sueldos entre hombres y mujeres que hacen un mismo trabajo.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 62 bis CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u4-l2-e02",
+          "unidad": 4,
+          "leccion": 2,
+          "tipo": "seleccion_multiple",
+          "dificultad": 1,
+          "concepto": "igualdad",
+          "enunciado": "¿Te pueden pedir un test de embarazo para contratarte?",
+          "opciones": [
+            "Sí, siempre",
+            "No, está prohibido",
+            "Solo en verano",
+            "Sí, si eres joven"
+          ],
+          "respuesta": 1,
+          "explicacion": "Ningún empleador puede exigir un certificado o examen para saber si una trabajadora está embarazada.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 194 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u4-l2-e03",
+          "unidad": 4,
+          "leccion": 2,
+          "tipo": "completar",
+          "dificultad": 1,
+          "concepto": "igualdad",
+          "enunciado": "Mismo trabajo, mismo ___.",
+          "respuesta": "sueldo",
+          "banco": [
+            "sueldo",
+            "peinado",
+            "cumpleaños"
+          ],
+          "explicacion": "Es la igualdad de remuneraciones: hombres y mujeres que hacen el mismo trabajo deben ganar lo mismo.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 62 bis CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u4-l2-e04",
+          "unidad": 4,
+          "leccion": 2,
+          "tipo": "verdadero_falso",
+          "dificultad": 1,
+          "concepto": "igualdad",
+          "enunciado": "Para trabajar de reponedor en un supermercado, te pueden pedir un certificado de deudas.",
+          "respuesta": false,
+          "explicacion": "Falso. En general, no pueden condicionar tu contratación a no tener deudas ni pedirte un certificado de eso.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 2 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u4-l2-e05",
+          "unidad": 4,
+          "leccion": 2,
+          "tipo": "seleccion_multiple",
+          "dificultad": 1,
+          "concepto": "igualdad",
+          "enunciado": "¿Cuál de estas preguntas NO te pueden hacer para decidir si te contratan?",
+          "opciones": [
+            "¿Sabes atender público?",
+            "¿Puedes trabajar los sábados?",
+            "¿Estás embarazada?",
+            "¿Tienes experiencia?"
+          ],
+          "respuesta": 2,
+          "explicacion": "No pueden condicionar tu contratación a estar o no embarazada. Las otras preguntas son sobre el trabajo.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 194 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u4-l2-e06",
+          "unidad": 4,
+          "leccion": 2,
+          "tipo": "caso_practico",
+          "dificultad": 2,
+          "concepto": "igualdad",
+          "caso": "En un café, Camila y Vicente atienden la misma caja, con el mismo horario y las mismas tareas. Vicente gana más solo por ser hombre.",
+          "enunciado": "¿Es correcto?",
+          "opciones": [
+            "Sí, es normal",
+            "Solo en diciembre",
+            "Sí, si Camila acepta",
+            "No, deben ganar lo mismo"
+          ],
+          "respuesta": 3,
+          "explicacion": "Pagar distinto solo por ser hombre o mujer va contra la igualdad de sueldos. Solo valen diferencias objetivas, como la productividad.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 62 bis CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u4-l2-e07",
+          "unidad": 4,
+          "leccion": 2,
+          "tipo": "seleccion_multiple",
+          "dificultad": 2,
+          "concepto": "igualdad",
+          "enunciado": "¿Qué diferencia de sueldo SÍ puede ser válida entre dos trabajadores?",
+          "opciones": [
+            "Una por su productividad",
+            "Una por su religión",
+            "Una por su apariencia",
+            "Una por ser mujer"
+          ],
+          "respuesta": 0,
+          "explicacion": "No son arbitrarias las diferencias objetivas, como las capacidades, la responsabilidad o la productividad.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 62 bis CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u4-l2-e08",
+          "unidad": 4,
+          "leccion": 2,
+          "tipo": "caso_practico",
+          "dificultad": 2,
+          "concepto": "igualdad",
+          "caso": "Una oferta de trabajo en internet dice: «Solo personas sin deudas y menores de 25 años».",
+          "enunciado": "¿Qué tiene de malo esa oferta?",
+          "opciones": [
+            "Nada, es normal",
+            "Pide requisitos discriminatorios",
+            "Es muy corta",
+            "No dice el sueldo"
+          ],
+          "respuesta": 1,
+          "explicacion": "Una oferta de trabajo no puede pedir requisitos como la edad. En general, tampoco puede exigir no tener deudas.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 2 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u4-l2-e09",
+          "unidad": 4,
+          "leccion": 2,
+          "tipo": "clasificar",
+          "dificultad": 3,
+          "concepto": "igualdad",
+          "enunciado": "¿Te lo pueden exigir para contratarte?",
+          "categorias": [
+            "Sí pueden",
+            "No pueden"
+          ],
+          "elementos": [
+            {
+              "texto": "Saber atender público",
+              "categoria": 0
+            },
+            {
+              "texto": "Un test de embarazo",
+              "categoria": 1
+            },
+            {
+              "texto": "Un certificado de deudas",
+              "categoria": 1
+            },
+            {
+              "texto": "Cumplir el horario del local",
+              "categoria": 0
+            },
+            {
+              "texto": "No haber tenido cáncer",
+              "categoria": 1
+            }
+          ],
+          "explicacion": "Pueden pedirte lo que el trabajo necesita. No pueden exigir un test de embarazo, no tener deudas ni no haber tenido cáncer.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Arts. 2 y 194 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u4-l2-e10",
+          "unidad": 4,
+          "leccion": 2,
+          "tipo": "identificar_error",
+          "dificultad": 3,
+          "concepto": "igualdad",
+          "enunciado": "Toca la parte que está equivocada.",
+          "segmentos": [
+            "El empleador puede pedir ",
+            "un test de embarazo ",
+            "antes de contratar a una trabajadora."
+          ],
+          "respuesta": 0,
+          "correccion": "El empleador no puede pedir",
+          "explicacion": "Está prohibido exigir un certificado o examen para saber si una trabajadora está embarazada.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 194 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        }
+      ]
+    },
+    {
+      "id": "u4-l3",
+      "numero": 3,
+      "titulo": "Cómo reclamar",
+      "objetivo": "Saber dónde reclamar y cuánto plazo tienes.",
+      "tipoNodo": "leccion",
+      "guia": [
+        {
+          "titulo": "Tus derechos no se renuncian",
+          "texto": "Mientras trabajas, no puedes renunciar a tus derechos laborales, aunque firmes un papel que diga lo contrario.",
+          "fuentes": [
+            {
+              "archivo": "Código del Trabajo",
+              "articulo": "Art. 5 CT",
+              "fueraDelMaterial": true
+            }
+          ],
+          "revisar": false
+        },
+        {
+          "titulo": "¿Dónde reclamar?",
+          "texto": "Puedes reclamar en la Inspección del Trabajo. La Dirección del Trabajo revisa que las empresas cumplan la ley. No te pueden castigar por denunciar.",
+          "fuentes": [
+            {
+              "archivo": "Código del Trabajo",
+              "articulo": "Arts. 485 y 505 CT",
+              "fueraDelMaterial": true
+            }
+          ],
+          "revisar": false
+        },
+        {
+          "titulo": "Ojo con los plazos",
+          "texto": "Si crees que tu despido fue injusto, tienes 60 días hábiles para ir al juzgado. Las horas extra se cobran dentro de 6 meses desde que debían pagarse.",
+          "fuentes": [
+            {
+              "archivo": "Código del Trabajo",
+              "articulo": "Arts. 168 y 510 CT",
+              "fueraDelMaterial": true
+            }
+          ],
+          "revisar": false
+        }
+      ],
+      "ejercicios": [
+        {
+          "id": "u4-l3-e01",
+          "unidad": 4,
+          "leccion": 3,
+          "tipo": "seleccion_multiple",
+          "dificultad": 1,
+          "concepto": "reclamos",
+          "enunciado": "¿Dónde puedes reclamar si no respetan tus derechos laborales?",
+          "opciones": [
+            "En la farmacia",
+            "En el banco",
+            "En la Inspección del Trabajo",
+            "En el colegio"
+          ],
+          "respuesta": 2,
+          "explicacion": "Puedes ir a la Inspección del Trabajo. La Dirección del Trabajo revisa que se cumpla la ley laboral.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Arts. 168 y 505 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u4-l3-e02",
+          "unidad": 4,
+          "leccion": 3,
+          "tipo": "verdadero_falso",
+          "dificultad": 1,
+          "concepto": "reclamos",
+          "enunciado": "Si firmas un papel renunciando a tus vacaciones, pierdes ese derecho.",
+          "respuesta": false,
+          "explicacion": "Falso. Mientras dure tu contrato, tus derechos laborales son irrenunciables, aunque firmes algo distinto.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 5 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u4-l3-e03",
+          "unidad": 4,
+          "leccion": 3,
+          "tipo": "completar",
+          "dificultad": 1,
+          "concepto": "reclamos",
+          "enunciado": "Tus derechos laborales son ___ mientras trabajas.",
+          "respuesta": "irrenunciables",
+          "banco": [
+            "irrenunciables",
+            "opcionales",
+            "secretos"
+          ],
+          "explicacion": "Los derechos que dan las leyes laborales no se pueden renunciar mientras dure el contrato.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 5 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u4-l3-e04",
+          "unidad": 4,
+          "leccion": 3,
+          "tipo": "verdadero_falso",
+          "dificultad": 1,
+          "concepto": "reclamos",
+          "enunciado": "Te pueden castigar por hacer una denuncia en la Inspección del Trabajo.",
+          "respuesta": false,
+          "explicacion": "Falso. Las represalias contra un trabajador por hacer una denuncia o ir a juicio están prohibidas y se pueden reclamar.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 485 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u4-l3-e05",
+          "unidad": 4,
+          "leccion": 3,
+          "tipo": "seleccion_multiple",
+          "dificultad": 1,
+          "concepto": "reclamos",
+          "enunciado": "¿Qué institución revisa que las empresas cumplan la ley laboral?",
+          "opciones": [
+            "El Registro Civil",
+            "La municipalidad",
+            "Un club deportivo",
+            "La Dirección del Trabajo"
+          ],
+          "respuesta": 3,
+          "explicacion": "Fiscalizar que se cumpla la ley laboral le corresponde a la Dirección del Trabajo.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 505 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u4-l3-e06",
+          "unidad": 4,
+          "leccion": 3,
+          "tipo": "caso_practico",
+          "dificultad": 2,
+          "concepto": "reclamos",
+          "caso": "A Javiera la despidieron y cree que fue injusto. Ya pasaron 20 días hábiles.",
+          "enunciado": "¿Todavía puede reclamar en el juzgado?",
+          "opciones": [
+            "Sí, tiene 60 días hábiles",
+            "No, ya es tarde",
+            "Solo si paga una multa",
+            "No, nunca se puede"
+          ],
+          "respuesta": 0,
+          "explicacion": "Quien cree que su despido fue injusto tiene 60 días hábiles desde que lo despidieron para ir al juzgado.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 168 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u4-l3-e07",
+          "unidad": 4,
+          "leccion": 3,
+          "tipo": "seleccion_multiple",
+          "dificultad": 2,
+          "concepto": "reclamos",
+          "enunciado": "¿Qué pasa con ese plazo si primero reclamas en la Inspección del Trabajo?",
+          "opciones": [
+            "Se termina de inmediato",
+            "Se suspende mientras dura el trámite",
+            "Se duplica siempre",
+            "Se reinicia a cero"
+          ],
+          "respuesta": 1,
+          "explicacion": "El reclamo en la Inspección suspende el plazo. Pero nunca puedes ir al juzgado después de 90 días hábiles desde el despido.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 168 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u4-l3-e08",
+          "unidad": 4,
+          "leccion": 3,
+          "tipo": "caso_practico",
+          "dificultad": 2,
+          "concepto": "reclamos",
+          "caso": "Felipe trabajó horas extra en enero y no se las pagaron. Recién en octubre quiere cobrarlas.",
+          "enunciado": "¿Llega a tiempo?",
+          "opciones": [
+            "Sí, tiene diez años",
+            "Sí, cuando quiera",
+            "No, el plazo era de 6 meses",
+            "Solo si tiene un abogado"
+          ],
+          "respuesta": 2,
+          "explicacion": "El derecho a cobrar horas extra vence 6 meses después de la fecha en que debían pagarse. En octubre ya pasó ese plazo.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 510 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u4-l3-e09",
+          "unidad": 4,
+          "leccion": 3,
+          "tipo": "unir_pares",
+          "dificultad": 3,
+          "concepto": "reclamos",
+          "enunciado": "Une cada tema con su regla.",
+          "pares": [
+            {
+              "a": "Reclamar un despido injusto",
+              "b": "60 días hábiles"
+            },
+            {
+              "a": "Cobrar horas extra",
+              "b": "6 meses"
+            },
+            {
+              "a": "Tus derechos mientras trabajas",
+              "b": "Irrenunciables"
+            }
+          ],
+          "explicacion": "Despido injusto: 60 días hábiles. Horas extra: 6 meses desde que debían pagarse. Y tus derechos laborales no se pueden renunciar.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Arts. 5, 168 y 510 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u4-l3-e10",
+          "unidad": 4,
+          "leccion": 3,
+          "tipo": "identificar_error",
+          "dificultad": 3,
+          "concepto": "reclamos",
+          "enunciado": "Toca la parte que está equivocada.",
+          "segmentos": [
+            "Si te despiden injustamente, ",
+            "tienes solo 5 días ",
+            "para ir al juzgado."
+          ],
+          "respuesta": 1,
+          "correccion": "tienes 60 días hábiles",
+          "explicacion": "El plazo para reclamar un despido injusto es de 60 días hábiles desde que te despidieron.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 168 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        }
+      ]
+    },
+    {
+      "id": "u4-l4",
+      "numero": 4,
+      "titulo": "Boletas de honorarios",
+      "objetivo": "Diferenciar trabajar con contrato y trabajar con boleta.",
+      "tipoNodo": "leccion",
+      "guia": [
+        {
+          "titulo": "¿Qué es una boleta?",
+          "texto": "Con boleta de honorarios prestas un servicio como independiente, sin contrato de trabajo. Por eso el Código del Trabajo, en general, no se aplica.",
+          "fuentes": [
+            {
+              "archivo": "Código del Trabajo",
+              "articulo": "Art. 8 CT",
+              "fueraDelMaterial": true
+            }
+          ],
+          "revisar": false
+        },
+        {
+          "titulo": "Si tienes jefe y horario",
+          "texto": "Si trabajas bajo las órdenes de un jefe, con horario y sueldo, la ley presume que hay contrato de trabajo, aunque te pidan boleta.",
+          "fuentes": [
+            {
+              "archivo": "Código del Trabajo",
+              "articulo": "Arts. 7 y 8 CT",
+              "fueraDelMaterial": true
+            }
+          ],
+          "revisar": false
+        },
+        {
+          "titulo": "La retención",
+          "texto": "En 2026, de cada boleta se retiene el 15,25%. Esa plata se usa para pagar tus cotizaciones y, si corresponde, tus impuestos.",
+          "fuentes": [
+            {
+              "archivo": "Ley N° 21.133",
+              "articulo": "Ley 21.133 (retención de boletas de honorarios: 15,25% en 2026, informado por el SII)",
+              "fueraDelMaterial": true
+            }
+          ],
+          "revisar": false
+        }
+      ],
+      "ejercicios": [
+        {
+          "id": "u4-l4-e01",
+          "unidad": 4,
+          "leccion": 4,
+          "tipo": "verdadero_falso",
+          "dificultad": 1,
+          "concepto": "honorarios",
+          "enunciado": "Con boleta de honorarios no tienes un contrato de trabajo.",
+          "respuesta": true,
+          "explicacion": "Verdadero. La boleta es para servicios independientes, así que no tienes los derechos de un contrato, como las vacaciones pagadas.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 8 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u4-l4-e02",
+          "unidad": 4,
+          "leccion": 4,
+          "tipo": "seleccion_multiple",
+          "dificultad": 1,
+          "concepto": "honorarios",
+          "enunciado": "¿Qué porcentaje de una boleta de honorarios se retiene en 2026?",
+          "opciones": [
+            "0%",
+            "100%",
+            "50%",
+            "15,25%"
+          ],
+          "respuesta": 3,
+          "explicacion": "En 2026 la retención es de 15,25%. Sirve para pagar cotizaciones e impuestos, y sube un poco cada año hasta 2028.",
+          "fuente": {
+            "archivo": "Ley N° 21.133",
+            "articulo": "Ley 21.133 (retención de boletas de honorarios: 15,25% en 2026, informado por el SII)",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u4-l4-e03",
+          "unidad": 4,
+          "leccion": 4,
+          "tipo": "completar",
+          "dificultad": 1,
+          "concepto": "honorarios",
+          "enunciado": "Con boleta de honorarios trabajas de forma ___.",
+          "respuesta": "independiente",
+          "banco": [
+            "independiente",
+            "obligatoria",
+            "secreta"
+          ],
+          "explicacion": "Quien entrega boletas de honorarios presta servicios como trabajador independiente, sin contrato de trabajo.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 8 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u4-l4-e04",
+          "unidad": 4,
+          "leccion": 4,
+          "tipo": "verdadero_falso",
+          "dificultad": 1,
+          "concepto": "honorarios",
+          "enunciado": "Si tienes jefe, horario fijo y sueldo, la ley presume que hay contrato de trabajo.",
+          "respuesta": true,
+          "explicacion": "Verdadero. Si trabajas bajo dependencia y subordinación, se presume que existe un contrato de trabajo, aunque te pidan boleta.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Arts. 7 y 8 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u4-l4-e05",
+          "unidad": 4,
+          "leccion": 4,
+          "tipo": "seleccion_multiple",
+          "dificultad": 1,
+          "concepto": "honorarios",
+          "enunciado": "¿Para qué sirve la plata que se retiene de tu boleta?",
+          "opciones": [
+            "Para cotizaciones e impuestos",
+            "Para el jefe",
+            "Para regalos",
+            "Se pierde para siempre"
+          ],
+          "respuesta": 0,
+          "explicacion": "La retención se usa para pagar tus cotizaciones de seguridad social y tus impuestos, si corresponden.",
+          "fuente": {
+            "archivo": "Ley N° 21.133",
+            "articulo": "Ley 21.133 (retención de boletas de honorarios: 15,25% en 2026, informado por el SII)",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u4-l4-e06",
+          "unidad": 4,
+          "leccion": 4,
+          "tipo": "caso_practico",
+          "dificultad": 2,
+          "concepto": "honorarios",
+          "caso": "Catalina trabaja en una tienda de lunes a viernes, con horario, jefa y uniforme. Le pagan contra boleta de honorarios.",
+          "enunciado": "¿Qué tiene en realidad?",
+          "opciones": [
+            "Un trabajo independiente",
+            "Un contrato de trabajo",
+            "Una práctica",
+            "Nada"
+          ],
+          "respuesta": 1,
+          "explicacion": "Trabaja bajo las órdenes de una jefa y con horario, así que la ley presume un contrato de trabajo, aunque entregue boletas.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Arts. 7 y 8 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u4-l4-e07",
+          "unidad": 4,
+          "leccion": 4,
+          "tipo": "caso_practico",
+          "dificultad": 2,
+          "concepto": "honorarios",
+          "caso": "Matías diseña logos desde su casa para distintos clientes, cuando él quiere, y entrega una boleta por cada trabajo.",
+          "enunciado": "¿Cómo trabaja Matías?",
+          "opciones": [
+            "Con contrato indefinido",
+            "Como empleado de cada cliente",
+            "Como independiente",
+            "En teletrabajo con jefe"
+          ],
+          "respuesta": 2,
+          "explicacion": "Matías decide cuándo y cómo trabaja, sin jefe ni horario. Es un trabajador independiente que entrega boletas de honorarios.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Arts. 7 y 8 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u4-l4-e08",
+          "unidad": 4,
+          "leccion": 4,
+          "tipo": "seleccion_multiple",
+          "dificultad": 2,
+          "concepto": "honorarios",
+          "enunciado": "¿Qué diferencia a un contrato de trabajo de una boleta de honorarios?",
+          "opciones": [
+            "El color del papel",
+            "Nada",
+            "El día de pago",
+            "Tener jefe y horario"
+          ],
+          "respuesta": 3,
+          "explicacion": "La clave es la subordinación: si trabajas bajo órdenes, con jefe y horario, hay contrato de trabajo.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 7 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u4-l4-e09",
+          "unidad": 4,
+          "leccion": 4,
+          "tipo": "clasificar",
+          "dificultad": 3,
+          "concepto": "honorarios",
+          "enunciado": "¿Contrato de trabajo o boleta de honorarios?",
+          "categorias": [
+            "Contrato",
+            "Boleta"
+          ],
+          "elementos": [
+            {
+              "texto": "Cajero con turnos y jefe",
+              "categoria": 0
+            },
+            {
+              "texto": "Reponedor con horario fijo",
+              "categoria": 0
+            },
+            {
+              "texto": "Clases particulares cuando tú quieres",
+              "categoria": 1
+            },
+            {
+              "texto": "Diseño de un logo por encargo",
+              "categoria": 1
+            },
+            {
+              "texto": "Vendedor con uniforme y jefa",
+              "categoria": 0
+            }
+          ],
+          "explicacion": "Si hay jefe, horario y órdenes, es contrato de trabajo. Si trabajas por encargo y a tu ritmo, es boleta.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Arts. 7 y 8 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u4-l4-e10",
+          "unidad": 4,
+          "leccion": 4,
+          "tipo": "identificar_error",
+          "dificultad": 3,
+          "concepto": "honorarios",
+          "enunciado": "Toca la parte que está equivocada.",
+          "segmentos": [
+            "Aunque te paguen con boleta, ",
+            "si tienes jefe y horario ",
+            "no puede haber contrato de trabajo."
+          ],
+          "respuesta": 2,
+          "correccion": "se presume un contrato de trabajo.",
+          "explicacion": "Todo trabajo bajo dependencia y subordinación hace presumir que existe un contrato de trabajo.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 8 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        }
+      ]
+    },
+    {
+      "id": "u4-l5",
+      "numero": 5,
+      "titulo": "Mamás y papás que trabajan",
+      "objetivo": "Conocer cómo la ley protege a las familias que trabajan.",
+      "tipoNodo": "leccion",
+      "guia": [
+        {
+          "titulo": "Pre y postnatal",
+          "texto": "La trabajadora tiene 6 semanas de descanso antes del parto y 12 semanas después. Luego viene el postnatal parental, de 12 semanas más.",
+          "fuentes": [
+            {
+              "archivo": "Código del Trabajo",
+              "articulo": "Arts. 195 y 197 bis CT",
+              "fueraDelMaterial": true
+            }
+          ],
+          "revisar": false
+        },
+        {
+          "titulo": "Fuero maternal",
+          "texto": "Desde el embarazo hasta un año después del postnatal, no pueden despedir a la trabajadora sin autorización de un juez.",
+          "fuentes": [
+            {
+              "archivo": "Código del Trabajo",
+              "articulo": "Arts. 174 y 201 CT",
+              "fueraDelMaterial": true
+            }
+          ],
+          "revisar": false
+        },
+        {
+          "titulo": "Sala cuna y alimentación",
+          "texto": "Las empresas con 20 o más trabajadoras deben dar sala cuna para hijos menores de 2 años. Y toda madre tiene una hora al día para alimentarlos.",
+          "fuentes": [
+            {
+              "archivo": "Código del Trabajo",
+              "articulo": "Arts. 203 y 206 CT",
+              "fueraDelMaterial": true
+            }
+          ],
+          "revisar": false
+        }
+      ],
+      "ejercicios": [
+        {
+          "id": "u4-l5-e01",
+          "unidad": 4,
+          "leccion": 5,
+          "tipo": "seleccion_multiple",
+          "dificultad": 1,
+          "concepto": "maternidad",
+          "enunciado": "¿Cuántas semanas de descanso tiene una trabajadora antes del parto?",
+          "opciones": [
+            "Seis",
+            "Una",
+            "Veinte",
+            "Ninguna"
+          ],
+          "respuesta": 0,
+          "explicacion": "El prenatal es de 6 semanas antes del parto, y el postnatal de 12 semanas después.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 195 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u4-l5-e02",
+          "unidad": 4,
+          "leccion": 5,
+          "tipo": "verdadero_falso",
+          "dificultad": 1,
+          "concepto": "maternidad",
+          "enunciado": "La mamá puede compartir semanas del postnatal parental con el papá.",
+          "respuesta": true,
+          "explicacion": "Verdadero. Si ambos trabajan, la madre puede pasarle al padre semanas del postnatal parental, desde la séptima semana.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 197 bis CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u4-l5-e03",
+          "unidad": 4,
+          "leccion": 5,
+          "tipo": "completar",
+          "dificultad": 1,
+          "concepto": "maternidad",
+          "enunciado": "Una trabajadora embarazada tiene ___ maternal.",
+          "respuesta": "fuero",
+          "banco": [
+            "fuero",
+            "multa",
+            "turno"
+          ],
+          "explicacion": "Desde el embarazo hasta un año después del postnatal, la trabajadora tiene fuero: no la pueden despedir sin autorización de un juez.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Arts. 174 y 201 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u4-l5-e04",
+          "unidad": 4,
+          "leccion": 5,
+          "tipo": "verdadero_falso",
+          "dificultad": 1,
+          "concepto": "maternidad",
+          "enunciado": "Una madre con un hijo menor de 2 años tiene derecho a una hora al día para alimentarlo.",
+          "respuesta": true,
+          "explicacion": "Verdadero. Tiene al menos una hora al día para alimentar a sus hijos menores de 2 años, y ese tiempo cuenta como trabajado.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 206 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u4-l5-e05",
+          "unidad": 4,
+          "leccion": 5,
+          "tipo": "seleccion_multiple",
+          "dificultad": 1,
+          "concepto": "maternidad",
+          "enunciado": "¿Cuánto dura el postnatal parental?",
+          "opciones": [
+            "Un día",
+            "Doce semanas",
+            "No existe",
+            "Dos años"
+          ],
+          "respuesta": 1,
+          "explicacion": "Después del postnatal viene el postnatal parental de 12 semanas. Si la madre vuelve a media jornada, se alarga a 18 semanas.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 197 bis CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u4-l5-e06",
+          "unidad": 4,
+          "leccion": 5,
+          "tipo": "caso_practico",
+          "dificultad": 2,
+          "concepto": "maternidad",
+          "caso": "Fernanda está embarazada y su jefe quiere despedirla porque dice que «ya no le sirve».",
+          "enunciado": "¿Puede hacerlo?",
+          "opciones": [
+            "Sí, cuando quiera",
+            "Sí, si le paga un bono",
+            "No, ella tiene fuero maternal",
+            "Solo si ella acepta"
+          ],
+          "respuesta": 2,
+          "explicacion": "Durante el embarazo y hasta un año después del postnatal tiene fuero: solo un juez podría autorizar su despido.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Arts. 174 y 201 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u4-l5-e07",
+          "unidad": 4,
+          "leccion": 5,
+          "tipo": "seleccion_multiple",
+          "dificultad": 2,
+          "concepto": "maternidad",
+          "enunciado": "¿Desde cuántas trabajadoras una empresa debe dar sala cuna?",
+          "opciones": [
+            "Desde 1",
+            "Nunca",
+            "Desde 500",
+            "Desde 20"
+          ],
+          "respuesta": 3,
+          "explicacion": "Las empresas que tienen 20 o más trabajadoras deben dar sala cuna para sus hijos menores de 2 años.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 203 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u4-l5-e08",
+          "unidad": 4,
+          "leccion": 5,
+          "tipo": "caso_practico",
+          "dificultad": 2,
+          "concepto": "maternidad",
+          "caso": "Antonia trabaja y tiene una hija de 1 año. Quiere usar su hora de alimentación llegando una hora más tarde.",
+          "enunciado": "¿Puede hacerlo?",
+          "opciones": [
+            "Sí, puede atrasar el inicio de su jornada",
+            "No, nunca",
+            "Solo los domingos",
+            "Sí, pero le descuentan el sueldo"
+          ],
+          "respuesta": 0,
+          "explicacion": "La hora para alimentar puede usarse atrasando o adelantando el inicio o el fin de la jornada, de acuerdo con el empleador.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 206 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u4-l5-e09",
+          "unidad": 4,
+          "leccion": 5,
+          "tipo": "unir_pares",
+          "dificultad": 3,
+          "concepto": "maternidad",
+          "enunciado": "Une cada derecho con su duración.",
+          "pares": [
+            {
+              "a": "Prenatal",
+              "b": "6 semanas"
+            },
+            {
+              "a": "Postnatal",
+              "b": "12 semanas"
+            },
+            {
+              "a": "Hora de alimentación",
+              "b": "1 hora al día"
+            },
+            {
+              "a": "Fuero maternal",
+              "b": "Hasta 1 año después del postnatal"
+            }
+          ],
+          "explicacion": "Prenatal: 6 semanas. Postnatal: 12 semanas. Alimentación: 1 hora al día. Fuero: desde el embarazo hasta 1 año después del postnatal.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Arts. 195, 201 y 206 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u4-l5-e10",
+          "unidad": 4,
+          "leccion": 5,
+          "tipo": "identificar_error",
+          "dificultad": 3,
+          "concepto": "maternidad",
+          "enunciado": "Toca la parte que está equivocada.",
+          "segmentos": [
+            "El fuero maternal dura ",
+            "solo hasta el día del parto."
+          ],
+          "respuesta": 1,
+          "correccion": "hasta un año después del postnatal.",
+          "explicacion": "El fuero va desde el embarazo hasta un año después de terminado el descanso de maternidad.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 201 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        }
+      ]
+    }
+  ]
+}

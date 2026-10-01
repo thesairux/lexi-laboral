@@ -1,0 +1,1385 @@
+{
+  "unidad": 1,
+  "titulo": "Tu primer trabajo",
+  "descripcion": "Lo básico antes de empezar a trabajar: sueldo, horario, horas extra y descansos. Y qué cambia si tienes menos de 18 años.",
+  "fueraDelMaterial": false,
+  "cofreDespuesDe": 3,
+  "lecciones": [
+    {
+      "id": "u1-l1",
+      "numero": 1,
+      "titulo": "El sueldo mínimo",
+      "objetivo": "Saber cuánto es el sueldo mínimo y cómo te deben pagar.",
+      "tipoNodo": "leccion",
+      "guia": [
+        {
+          "titulo": "¿Qué es?",
+          "texto": "Es lo menos que te pueden pagar al mes por una jornada completa. Ningún sueldo mensual puede ser más bajo.",
+          "fuentes": [
+            {
+              "archivo": "Código del Trabajo",
+              "articulo": "Art. 44 CT",
+              "fueraDelMaterial": true
+            }
+          ],
+          "revisar": false
+        },
+        {
+          "titulo": "¿Cuánto es?",
+          "texto": "Desde el 1 de mayo de 2026 es de $553.553 al mes si tienes entre 18 y 65 años, y de $412.938 si tienes menos de 18.",
+          "fuentes": [
+            {
+              "archivo": "Ley N° 21.830",
+              "articulo": "Arts. 1 y 2 Ley 21.830 (ingreso mínimo desde el 01-05-2026)",
+              "fueraDelMaterial": true
+            }
+          ],
+          "revisar": false
+        },
+        {
+          "titulo": "¿Cómo te pagan?",
+          "texto": "En dinero, al menos una vez al mes. Junto con el pago te deben dar un comprobante con el monto y los descuentos.",
+          "fuentes": [
+            {
+              "archivo": "Código del Trabajo",
+              "articulo": "Art. 54 y 55 CT",
+              "fueraDelMaterial": true
+            }
+          ],
+          "revisar": false
+        }
+      ],
+      "ejercicios": [
+        {
+          "id": "u1-l1-e01",
+          "unidad": 1,
+          "leccion": 1,
+          "tipo": "seleccion_multiple",
+          "dificultad": 1,
+          "concepto": "sueldo-minimo",
+          "enunciado": "¿Qué es el sueldo mínimo?",
+          "opciones": [
+            "Lo menos que te pueden pagar al mes",
+            "Lo máximo que puedes ganar",
+            "Un bono de Navidad",
+            "Lo que cobra el banco"
+          ],
+          "respuesta": 0,
+          "explicacion": "Es el monto más bajo que te pueden pagar al mes por una jornada completa. Ningún sueldo puede ser menor.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 44 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u1-l1-e02",
+          "unidad": 1,
+          "leccion": 1,
+          "tipo": "seleccion_multiple",
+          "dificultad": 1,
+          "concepto": "sueldo-minimo",
+          "enunciado": "¿Cuánto es el sueldo mínimo para mayores de 18 años desde mayo de 2026?",
+          "opciones": [
+            "$100.000",
+            "$553.553",
+            "$1.500.000",
+            "$53.000"
+          ],
+          "respuesta": 1,
+          "explicacion": "Desde el 1 de mayo de 2026 es de $553.553 al mes para personas de 18 a 65 años.",
+          "fuente": {
+            "archivo": "Ley N° 21.830",
+            "articulo": "Arts. 1 y 2 Ley 21.830 (ingreso mínimo desde el 01-05-2026)",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u1-l1-e03",
+          "unidad": 1,
+          "leccion": 1,
+          "tipo": "verdadero_falso",
+          "dificultad": 1,
+          "concepto": "sueldo-minimo",
+          "enunciado": "Si tienes menos de 18 años, tu sueldo mínimo es de $412.938.",
+          "respuesta": true,
+          "explicacion": "Verdadero. Para menores de 18 y mayores de 65, el sueldo mínimo es de $412.938 desde mayo de 2026.",
+          "fuente": {
+            "archivo": "Ley N° 21.830",
+            "articulo": "Arts. 1 y 2 Ley 21.830 (ingreso mínimo desde el 01-05-2026)",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u1-l1-e04",
+          "unidad": 1,
+          "leccion": 1,
+          "tipo": "completar",
+          "dificultad": 1,
+          "concepto": "sueldo-minimo",
+          "enunciado": "Te deben pagar el sueldo al menos una vez al ___.",
+          "respuesta": "mes",
+          "banco": [
+            "mes",
+            "año",
+            "siglo"
+          ],
+          "explicacion": "La ley no permite pagar el sueldo en períodos de más de un mes.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 55 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u1-l1-e05",
+          "unidad": 1,
+          "leccion": 1,
+          "tipo": "verdadero_falso",
+          "dificultad": 1,
+          "concepto": "sueldo-minimo",
+          "enunciado": "Te pueden pagar todo tu sueldo con productos de la tienda.",
+          "respuesta": false,
+          "explicacion": "Falso. El sueldo se paga en dinero. Si tú lo pides, también puede ser con cheque, vale vista o transferencia.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 54 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u1-l1-e06",
+          "unidad": 1,
+          "leccion": 1,
+          "tipo": "seleccion_multiple",
+          "dificultad": 2,
+          "concepto": "sueldo-minimo",
+          "enunciado": "Junto con el sueldo, ¿qué te debe entregar tu empleador?",
+          "opciones": [
+            "Un regalo",
+            "Un comprobante con el monto y los descuentos",
+            "Nada más",
+            "Una carta de recomendación"
+          ],
+          "respuesta": 1,
+          "explicacion": "Te deben dar un comprobante con cuánto te pagaron, cómo se calculó y qué te descontaron: la liquidación de sueldo.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 54 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u1-l1-e07",
+          "unidad": 1,
+          "leccion": 1,
+          "tipo": "caso_practico",
+          "dificultad": 2,
+          "concepto": "sueldo-minimo",
+          "caso": "Camila tiene 19 años y trabaja jornada completa. Le ofrecen $450.000 al mes.",
+          "enunciado": "¿Es legal ese sueldo?",
+          "opciones": [
+            "Sí, si ella acepta",
+            "Sí, porque es joven",
+            "No: es menos que el mínimo",
+            "Sí, si es su primer trabajo"
+          ],
+          "respuesta": 2,
+          "explicacion": "No. Con 19 años el mínimo es de $553.553 al mes por jornada completa, y nadie puede pactar menos.",
+          "fuente": {
+            "archivo": "Ley N° 21.830",
+            "articulo": "Arts. 1 y 2 Ley 21.830 (ingreso mínimo desde el 01-05-2026)",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u1-l1-e08",
+          "unidad": 1,
+          "leccion": 1,
+          "tipo": "unir_pares",
+          "dificultad": 2,
+          "concepto": "sueldo-minimo",
+          "enunciado": "Une cada dato del sueldo.",
+          "pares": [
+            {
+              "a": "Si tienes 18 años o más",
+              "b": "$553.553 al mes"
+            },
+            {
+              "a": "Si tienes menos de 18",
+              "b": "$412.938 al mes"
+            },
+            {
+              "a": "Cada cuánto te pagan",
+              "b": "Al menos una vez al mes"
+            }
+          ],
+          "explicacion": "De 18 a 65 años: $553.553. Menores de 18: $412.938. Y te deben pagar, como mínimo, una vez al mes.",
+          "fuente": {
+            "archivo": "Ley N° 21.830",
+            "articulo": "Arts. 1 y 2 Ley 21.830 (ingreso mínimo desde el 01-05-2026)",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u1-l1-e09",
+          "unidad": 1,
+          "leccion": 1,
+          "tipo": "caso_practico",
+          "dificultad": 3,
+          "concepto": "sueldo-minimo",
+          "caso": "Diego trabaja media jornada: la mitad de las horas de una jornada completa.",
+          "enunciado": "¿Cuánto es su sueldo mínimo?",
+          "opciones": [
+            "La mitad del mínimo",
+            "El mínimo completo",
+            "No tiene mínimo",
+            "El doble del mínimo"
+          ],
+          "respuesta": 0,
+          "explicacion": "En una jornada parcial, el sueldo mínimo se calcula en proporción a las horas: media jornada, la mitad del mínimo.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 44 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u1-l1-e10",
+          "unidad": 1,
+          "leccion": 1,
+          "tipo": "clasificar",
+          "dificultad": 3,
+          "concepto": "sueldo-minimo",
+          "enunciado": "¿Te pueden pagar así?",
+          "categorias": [
+            "Sí",
+            "No"
+          ],
+          "elementos": [
+            {
+              "texto": "En dinero",
+              "categoria": 0
+            },
+            {
+              "texto": "Por transferencia, si lo pides",
+              "categoria": 0
+            },
+            {
+              "texto": "Cada tres meses",
+              "categoria": 1
+            },
+            {
+              "texto": "Solo con productos",
+              "categoria": 1
+            }
+          ],
+          "explicacion": "Te pagan en dinero, o por transferencia o cheque si lo pides, y al menos una vez al mes.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 54 y 55 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        }
+      ]
+    },
+    {
+      "id": "u1-l2",
+      "numero": 2,
+      "titulo": "Tus horas de trabajo",
+      "objetivo": "Saber cuántas horas puedes trabajar y cuánto dura la colación.",
+      "tipoNodo": "leccion",
+      "guia": [
+        {
+          "titulo": "42 horas a la semana",
+          "texto": "Desde el 26 de abril de 2026, la jornada máxima es de 42 horas a la semana. En abril de 2028 bajará a 40 horas.",
+          "fuentes": [
+            {
+              "archivo": "Ley N° 21.561",
+              "articulo": "Art. 22 CT y art. primero transitorio Ley 21.561",
+              "fueraDelMaterial": true
+            }
+          ],
+          "revisar": false
+        },
+        {
+          "titulo": "Días y horas",
+          "texto": "Esas horas se reparten en 5 o 6 días, y nunca más de 10 horas de jornada en un día.",
+          "fuentes": [
+            {
+              "archivo": "Código del Trabajo",
+              "articulo": "Art. 28 CT",
+              "fueraDelMaterial": true
+            }
+          ],
+          "revisar": false
+        },
+        {
+          "titulo": "La colación",
+          "texto": "La jornada se divide para almorzar: al menos media hora, que no cuenta como tiempo trabajado.",
+          "fuentes": [
+            {
+              "archivo": "Código del Trabajo",
+              "articulo": "Art. 34 CT",
+              "fueraDelMaterial": true
+            }
+          ],
+          "revisar": false
+        }
+      ],
+      "ejercicios": [
+        {
+          "id": "u1-l2-e01",
+          "unidad": 1,
+          "leccion": 2,
+          "tipo": "seleccion_multiple",
+          "dificultad": 1,
+          "concepto": "jornada",
+          "enunciado": "¿Cuántas horas a la semana se puede trabajar como máximo hoy?",
+          "opciones": [
+            "80 horas",
+            "42 horas",
+            "100 horas",
+            "10 horas"
+          ],
+          "respuesta": 1,
+          "explicacion": "Desde el 26 de abril de 2026, la jornada máxima es de 42 horas semanales.",
+          "fuente": {
+            "archivo": "Ley N° 21.561",
+            "articulo": "Art. 22 CT y art. primero transitorio Ley 21.561",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u1-l2-e02",
+          "unidad": 1,
+          "leccion": 2,
+          "tipo": "verdadero_falso",
+          "dificultad": 1,
+          "concepto": "jornada",
+          "enunciado": "La jornada máxima bajará a 40 horas en 2028.",
+          "respuesta": true,
+          "explicacion": "Verdadero. La ley de las 40 horas baja la jornada de a poco: 44 horas desde 2024, 42 desde 2026 y 40 desde abril de 2028.",
+          "fuente": {
+            "archivo": "Ley N° 21.561",
+            "articulo": "Art. 22 CT y art. primero transitorio Ley 21.561",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u1-l2-e03",
+          "unidad": 1,
+          "leccion": 2,
+          "tipo": "completar",
+          "dificultad": 1,
+          "concepto": "jornada",
+          "enunciado": "La colación dura al menos ___ minutos.",
+          "respuesta": "30",
+          "banco": [
+            "30",
+            "2",
+            "300"
+          ],
+          "explicacion": "La jornada se divide en dos, con al menos media hora (30 minutos) para la colación.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 34 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u1-l2-e04",
+          "unidad": 1,
+          "leccion": 2,
+          "tipo": "verdadero_falso",
+          "dificultad": 1,
+          "concepto": "jornada",
+          "enunciado": "El tiempo de colación cuenta como hora trabajada.",
+          "respuesta": false,
+          "explicacion": "Falso. La media hora de colación no se considera tiempo trabajado.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 34 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u1-l2-e05",
+          "unidad": 1,
+          "leccion": 2,
+          "tipo": "seleccion_multiple",
+          "dificultad": 1,
+          "concepto": "jornada",
+          "enunciado": "¿En cuántos días se reparte la jornada de la semana?",
+          "opciones": [
+            "En 1 día",
+            "En 5 o 6 días",
+            "En los 7 días, sin descanso",
+            "En 10 días"
+          ],
+          "respuesta": 1,
+          "explicacion": "La jornada semanal se reparte en no menos de 5 ni más de 6 días.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 28 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u1-l2-e06",
+          "unidad": 1,
+          "leccion": 2,
+          "tipo": "seleccion_multiple",
+          "dificultad": 2,
+          "concepto": "jornada",
+          "enunciado": "¿Cuántas horas puede durar como máximo tu jornada en un día?",
+          "opciones": [
+            "24 horas",
+            "16 horas",
+            "10 horas",
+            "20 horas"
+          ],
+          "respuesta": 2,
+          "explicacion": "La jornada ordinaria nunca puede pasar de 10 horas en un día.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 28 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u1-l2-e07",
+          "unidad": 1,
+          "leccion": 2,
+          "tipo": "caso_practico",
+          "dificultad": 2,
+          "concepto": "jornada",
+          "caso": "Martina trabaja 5 días a la semana, 8 horas cada día.",
+          "enunciado": "¿Respeta el máximo semanal?",
+          "opciones": [
+            "No: se pasa del máximo",
+            "No: debe trabajar 7 días",
+            "Sí, pero solo en verano",
+            "Sí: son 40 horas a la semana"
+          ],
+          "respuesta": 3,
+          "explicacion": "8 horas por 5 días son 40 horas: menos que el máximo de 42 horas semanales.",
+          "fuente": {
+            "archivo": "Ley N° 21.561",
+            "articulo": "Art. 22 CT y art. primero transitorio Ley 21.561",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u1-l2-e08",
+          "unidad": 1,
+          "leccion": 2,
+          "tipo": "ordenar",
+          "dificultad": 2,
+          "concepto": "jornada",
+          "enunciado": "Ordena de menos a más tiempo.",
+          "pasos": [
+            "La colación: 30 minutos",
+            "El máximo en un día: 10 horas",
+            "La jornada desde 2028: 40 horas",
+            "La jornada de hoy: 42 horas"
+          ],
+          "explicacion": "Colación: 30 minutos. Máximo diario: 10 horas. Jornada semanal: 42 horas hoy y 40 desde 2028.",
+          "fuente": {
+            "archivo": "Ley N° 21.561",
+            "articulo": "Art. 22 CT y art. primero transitorio Ley 21.561",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u1-l2-e09",
+          "unidad": 1,
+          "leccion": 2,
+          "tipo": "identificar_error",
+          "dificultad": 3,
+          "concepto": "jornada",
+          "enunciado": "Toca la parte que está equivocada.",
+          "segmentos": [
+            "La jornada semanal se reparte en 5 o 6 días, ",
+            "y puede durar 15 horas en un día."
+          ],
+          "respuesta": 1,
+          "correccion": "y nunca más de 10 horas en un día.",
+          "explicacion": "La jornada ordinaria no puede pasar de 10 horas diarias.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 28 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u1-l2-e10",
+          "unidad": 1,
+          "leccion": 2,
+          "tipo": "clasificar",
+          "dificultad": 3,
+          "concepto": "jornada",
+          "enunciado": "¿Cumple con la ley de jornada?",
+          "categorias": [
+            "Cumple",
+            "No cumple"
+          ],
+          "elementos": [
+            {
+              "texto": "40 horas en 5 días",
+              "categoria": 0
+            },
+            {
+              "texto": "42 horas en 6 días",
+              "categoria": 0
+            },
+            {
+              "texto": "50 horas a la semana",
+              "categoria": 1
+            },
+            {
+              "texto": "13 horas de jornada en un día",
+              "categoria": 1
+            }
+          ],
+          "explicacion": "Hoy el máximo es de 42 horas semanales, repartidas en 5 o 6 días, y no más de 10 horas de jornada por día.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 22 y 28 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        }
+      ]
+    },
+    {
+      "id": "u1-l3",
+      "numero": 3,
+      "titulo": "Horas extra",
+      "objetivo": "Saber cuántas horas extra se pueden hacer y cuánto se pagan.",
+      "tipoNodo": "leccion",
+      "guia": [
+        {
+          "titulo": "¿Qué son?",
+          "texto": "Son las horas que trabajas después de tu jornada. Como máximo puedes hacer 2 horas extra al día.",
+          "fuentes": [
+            {
+              "archivo": "Código del Trabajo",
+              "articulo": "Art. 30 y 31 CT",
+              "fueraDelMaterial": true
+            }
+          ],
+          "revisar": false
+        },
+        {
+          "titulo": "Se pagan más",
+          "texto": "Cada hora extra vale un 50% más que una hora normal. Si una hora normal vale $4.000, la extra vale $6.000.",
+          "fuentes": [
+            {
+              "archivo": "Código del Trabajo",
+              "articulo": "Art. 32 CT",
+              "fueraDelMaterial": true
+            }
+          ],
+          "revisar": false
+        },
+        {
+          "titulo": "Por escrito",
+          "texto": "Se acuerdan por escrito y solo para necesidades temporales, por hasta 3 meses que se pueden renovar.",
+          "fuentes": [
+            {
+              "archivo": "Código del Trabajo",
+              "articulo": "Art. 32 CT",
+              "fueraDelMaterial": true
+            }
+          ],
+          "revisar": false
+        }
+      ],
+      "ejercicios": [
+        {
+          "id": "u1-l3-e01",
+          "unidad": 1,
+          "leccion": 3,
+          "tipo": "seleccion_multiple",
+          "dificultad": 1,
+          "concepto": "horas-extra",
+          "enunciado": "¿Qué son las horas extra?",
+          "opciones": [
+            "Las horas de almuerzo",
+            "Las horas de vacaciones",
+            "Las que trabajas después de tu jornada",
+            "Las horas que duermes"
+          ],
+          "respuesta": 2,
+          "explicacion": "Son las horas que trabajas por sobre tu jornada normal.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 30 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u1-l3-e02",
+          "unidad": 1,
+          "leccion": 3,
+          "tipo": "seleccion_multiple",
+          "dificultad": 1,
+          "concepto": "horas-extra",
+          "enunciado": "¿Cuántas horas extra puedes hacer como máximo en un día?",
+          "opciones": [
+            "10 horas",
+            "6 horas",
+            "Las que quiera el jefe",
+            "2 horas"
+          ],
+          "respuesta": 3,
+          "explicacion": "La ley permite como máximo 2 horas extra por día.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 31 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u1-l3-e03",
+          "unidad": 1,
+          "leccion": 3,
+          "tipo": "verdadero_falso",
+          "dificultad": 1,
+          "concepto": "horas-extra",
+          "enunciado": "Las horas extra se pagan más que las horas normales.",
+          "respuesta": true,
+          "explicacion": "Verdadero. Se pagan con un recargo del 50%.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 32 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u1-l3-e04",
+          "unidad": 1,
+          "leccion": 3,
+          "tipo": "completar",
+          "dificultad": 1,
+          "concepto": "horas-extra",
+          "enunciado": "Cada hora extra se paga con un ___% más.",
+          "respuesta": "50",
+          "banco": [
+            "50",
+            "5",
+            "500"
+          ],
+          "explicacion": "Cada hora extra vale un 50% más que una hora normal.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 32 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u1-l3-e05",
+          "unidad": 1,
+          "leccion": 3,
+          "tipo": "verdadero_falso",
+          "dificultad": 1,
+          "concepto": "horas-extra",
+          "enunciado": "Puedes hacer 5 horas extra en un mismo día.",
+          "respuesta": false,
+          "explicacion": "Falso. El máximo es de 2 horas extra por día.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 31 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u1-l3-e06",
+          "unidad": 1,
+          "leccion": 3,
+          "tipo": "caso_practico",
+          "dificultad": 2,
+          "concepto": "horas-extra",
+          "caso": "Una hora normal de trabajo de Tomás vale $4.000.",
+          "enunciado": "¿Cuánto vale una hora extra?",
+          "opciones": [
+            "$4.000",
+            "$2.000",
+            "$40.000",
+            "$6.000"
+          ],
+          "respuesta": 3,
+          "explicacion": "Con el 50% más: $4.000 + $2.000 = $6.000.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 32 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u1-l3-e07",
+          "unidad": 1,
+          "leccion": 3,
+          "tipo": "seleccion_multiple",
+          "dificultad": 2,
+          "concepto": "horas-extra",
+          "enunciado": "¿Cómo se acuerdan las horas extra?",
+          "opciones": [
+            "Por escrito y por un tiempo",
+            "De palabra y para siempre",
+            "No se acuerdan",
+            "Las decide el cliente"
+          ],
+          "respuesta": 0,
+          "explicacion": "El acuerdo de horas extra va por escrito, es para necesidades temporales y dura hasta 3 meses, renovables.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 32 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u1-l3-e08",
+          "unidad": 1,
+          "leccion": 3,
+          "tipo": "verdadero_falso",
+          "dificultad": 2,
+          "concepto": "horas-extra",
+          "enunciado": "Si trabajas de más y tu jefe lo sabe, son horas extra aunque no firmaran nada.",
+          "respuesta": true,
+          "explicacion": "Verdadero. Aunque no haya acuerdo escrito, las horas trabajadas de más con conocimiento del empleador son horas extra.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 32 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u1-l3-e09",
+          "unidad": 1,
+          "leccion": 3,
+          "tipo": "unir_pares",
+          "dificultad": 3,
+          "concepto": "horas-extra",
+          "enunciado": "Une cada dato de las horas extra.",
+          "pares": [
+            {
+              "a": "Máximo de horas extra al día",
+              "b": "2 horas"
+            },
+            {
+              "a": "Cuánto más se pagan",
+              "b": "Un 50% más"
+            },
+            {
+              "a": "Duración máxima del acuerdo",
+              "b": "3 meses"
+            }
+          ],
+          "explicacion": "Máximo 2 horas extra al día, pagadas con un 50% más, con un acuerdo de hasta 3 meses que se puede renovar.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 31 y 32 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u1-l3-e10",
+          "unidad": 1,
+          "leccion": 3,
+          "tipo": "caso_practico",
+          "dificultad": 3,
+          "concepto": "horas-extra",
+          "caso": "Sofía hizo 4 horas extra y acordó por escrito cambiarlas por descanso.",
+          "enunciado": "¿Cuánto descanso le toca?",
+          "opciones": [
+            "6 horas",
+            "4 horas",
+            "2 horas",
+            "Nada"
+          ],
+          "respuesta": 0,
+          "explicacion": "Las horas extra se pueden cambiar por descanso si se firma: cada hora extra da una hora y media. 4 horas extra = 6 horas.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 32 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        }
+      ]
+    },
+    {
+      "id": "u1-l4",
+      "numero": 4,
+      "titulo": "Descansos y vacaciones",
+      "objetivo": "Conocer tus días de descanso y tus vacaciones.",
+      "tipoNodo": "leccion",
+      "guia": [
+        {
+          "titulo": "Domingos y festivos",
+          "texto": "Los domingos y los días festivos son de descanso, salvo en los trabajos que la ley autoriza esos días.",
+          "fuentes": [
+            {
+              "archivo": "Código del Trabajo",
+              "articulo": "Art. 35 CT",
+              "fueraDelMaterial": true
+            }
+          ],
+          "revisar": false
+        },
+        {
+          "titulo": "El 1 de mayo",
+          "texto": "Es el Día Nacional del Trabajo, y es feriado.",
+          "fuentes": [
+            {
+              "archivo": "Código del Trabajo",
+              "articulo": "Art. 35 CT",
+              "fueraDelMaterial": true
+            }
+          ],
+          "revisar": false
+        },
+        {
+          "titulo": "Vacaciones",
+          "texto": "Después de un año de trabajo tienes 15 días hábiles de vacaciones pagadas. Los sábados no cuentan como días hábiles.",
+          "fuentes": [
+            {
+              "archivo": "Código del Trabajo",
+              "articulo": "Art. 67 y 69 CT",
+              "fueraDelMaterial": true
+            }
+          ],
+          "revisar": false
+        }
+      ],
+      "ejercicios": [
+        {
+          "id": "u1-l4-e01",
+          "unidad": 1,
+          "leccion": 4,
+          "tipo": "seleccion_multiple",
+          "dificultad": 1,
+          "concepto": "descansos",
+          "enunciado": "¿Cuántos días de vacaciones tienes después de un año de trabajo?",
+          "opciones": [
+            "2 días",
+            "100 días",
+            "Ninguno",
+            "15 días hábiles"
+          ],
+          "respuesta": 3,
+          "explicacion": "Con más de un año de trabajo tienes 15 días hábiles de vacaciones, con sueldo completo.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 67 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u1-l4-e02",
+          "unidad": 1,
+          "leccion": 4,
+          "tipo": "verdadero_falso",
+          "dificultad": 1,
+          "concepto": "descansos",
+          "enunciado": "En tus vacaciones te siguen pagando el sueldo.",
+          "respuesta": true,
+          "explicacion": "Verdadero. Las vacaciones (feriado anual) se dan con el sueldo completo.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 67 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u1-l4-e03",
+          "unidad": 1,
+          "leccion": 4,
+          "tipo": "completar",
+          "dificultad": 1,
+          "concepto": "descansos",
+          "enunciado": "El 1 de mayo es el Día Nacional del ___.",
+          "respuesta": "Trabajo",
+          "banco": [
+            "Trabajo",
+            "Deporte",
+            "Helado"
+          ],
+          "explicacion": "El 1 de mayo es el Día Nacional del Trabajo, y es feriado.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 35 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u1-l4-e04",
+          "unidad": 1,
+          "leccion": 4,
+          "tipo": "verdadero_falso",
+          "dificultad": 1,
+          "concepto": "descansos",
+          "enunciado": "Los domingos son de descanso, salvo en trabajos que la ley autoriza.",
+          "respuesta": true,
+          "explicacion": "Verdadero. Los domingos y festivos son de descanso, salvo en actividades autorizadas por ley.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 35 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u1-l4-e05",
+          "unidad": 1,
+          "leccion": 4,
+          "tipo": "seleccion_multiple",
+          "dificultad": 1,
+          "concepto": "descansos",
+          "enunciado": "¿Qué día es el Día Nacional del Trabajo?",
+          "opciones": [
+            "El 18 de septiembre",
+            "El 25 de diciembre",
+            "El 14 de febrero",
+            "El 1 de mayo"
+          ],
+          "respuesta": 3,
+          "explicacion": "El Día Nacional del Trabajo es el 1 de mayo de cada año, y es feriado.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 35 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u1-l4-e06",
+          "unidad": 1,
+          "leccion": 4,
+          "tipo": "seleccion_multiple",
+          "dificultad": 2,
+          "concepto": "descansos",
+          "enunciado": "¿En qué época se dan de preferencia las vacaciones?",
+          "opciones": [
+            "En primavera o verano",
+            "Solo en invierno",
+            "Nunca",
+            "Solo los lunes"
+          ],
+          "respuesta": 0,
+          "explicacion": "Las vacaciones se dan de preferencia en primavera o verano, según las necesidades del trabajo.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 67 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u1-l4-e07",
+          "unidad": 1,
+          "leccion": 4,
+          "tipo": "caso_practico",
+          "dificultad": 2,
+          "concepto": "descansos",
+          "caso": "Benjamín trabaja hace 8 meses en una tienda y quiere tomarse 15 días de vacaciones.",
+          "enunciado": "¿Ya tiene derecho a esas vacaciones?",
+          "opciones": [
+            "Sí, desde el primer día",
+            "No: se ganan después de un año",
+            "Sí, desde el primer mes",
+            "No: nunca tendrá vacaciones"
+          ],
+          "respuesta": 1,
+          "explicacion": "Los 15 días hábiles de vacaciones corresponden a quienes tienen más de un año de trabajo.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 67 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u1-l4-e08",
+          "unidad": 1,
+          "leccion": 4,
+          "tipo": "unir_pares",
+          "dificultad": 2,
+          "concepto": "descansos",
+          "enunciado": "Une cada día con lo que significa.",
+          "pares": [
+            {
+              "a": "Domingo",
+              "b": "Día de descanso"
+            },
+            {
+              "a": "1 de mayo",
+              "b": "Día Nacional del Trabajo"
+            },
+            {
+              "a": "Más de un año trabajando",
+              "b": "15 días hábiles de vacaciones"
+            }
+          ],
+          "explicacion": "Los domingos son de descanso, el 1 de mayo es feriado y con más de un año tienes 15 días hábiles de vacaciones.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 35 y 67 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u1-l4-e09",
+          "unidad": 1,
+          "leccion": 4,
+          "tipo": "identificar_error",
+          "dificultad": 3,
+          "concepto": "descansos",
+          "enunciado": "Toca la parte que está equivocada.",
+          "segmentos": [
+            "Para contar los días de vacaciones, ",
+            "el sábado cuenta como día hábil."
+          ],
+          "respuesta": 1,
+          "correccion": "el sábado no cuenta como día hábil.",
+          "explicacion": "Para las vacaciones, el sábado siempre se considera día inhábil.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 69 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u1-l4-e10",
+          "unidad": 1,
+          "leccion": 4,
+          "tipo": "verdadero_falso",
+          "dificultad": 3,
+          "concepto": "descansos",
+          "enunciado": "En Magallanes, Aysén y Palena las vacaciones son de 20 días hábiles.",
+          "respuesta": true,
+          "explicacion": "Verdadero. Quienes trabajan en Magallanes, Aysén y la provincia de Palena tienen 20 días hábiles de vacaciones.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 67 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        }
+      ]
+    },
+    {
+      "id": "u1-l5",
+      "numero": 5,
+      "titulo": "Si tienes 15, 16 o 17 años",
+      "objetivo": "Saber cómo puedes trabajar si eres menor de 18.",
+      "tipoNodo": "leccion",
+      "guia": [
+        {
+          "titulo": "¿Desde qué edad?",
+          "texto": "Desde los 15 años, con permiso escrito de tu papá, tu mamá o quien te cuide, y si sigues estudiando o ya terminaste la enseñanza media.",
+          "fuentes": [
+            {
+              "archivo": "Código del Trabajo",
+              "articulo": "Art. 13 y 14 CT",
+              "fueraDelMaterial": true
+            }
+          ],
+          "revisar": false
+        },
+        {
+          "titulo": "Tu horario",
+          "texto": "Máximo 30 horas a la semana: hasta 6 horas al día en época de clases y hasta 8 en vacaciones. Nunca horas extra.",
+          "fuentes": [
+            {
+              "archivo": "Código del Trabajo",
+              "articulo": "Art. 14 CT",
+              "fueraDelMaterial": true
+            }
+          ],
+          "revisar": false
+        },
+        {
+          "titulo": "De noche, no",
+          "texto": "En fábricas y comercios no puedes trabajar de noche: entre las 21:00 y las 8:00 está prohibido.",
+          "fuentes": [
+            {
+              "archivo": "Código del Trabajo",
+              "articulo": "Art. 18 CT",
+              "fueraDelMaterial": true
+            }
+          ],
+          "revisar": false
+        }
+      ],
+      "ejercicios": [
+        {
+          "id": "u1-l5-e01",
+          "unidad": 1,
+          "leccion": 5,
+          "tipo": "seleccion_multiple",
+          "dificultad": 1,
+          "concepto": "trabajo-adolescente",
+          "enunciado": "¿Desde qué edad puedes trabajar con permiso?",
+          "opciones": [
+            "Desde los 15 años",
+            "Desde los 8 años",
+            "Desde los 12 años",
+            "Desde los 30 años"
+          ],
+          "respuesta": 0,
+          "explicacion": "Desde los 15 años puedes trabajar, cumpliendo los requisitos de la ley. Antes de los 15 está prohibido contratarte.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 13 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u1-l5-e02",
+          "unidad": 1,
+          "leccion": 5,
+          "tipo": "verdadero_falso",
+          "dificultad": 1,
+          "concepto": "trabajo-adolescente",
+          "enunciado": "Con 16 años necesitas permiso escrito de tu papá, tu mamá o quien te cuide.",
+          "respuesta": true,
+          "explicacion": "Verdadero. Se necesita una autorización por escrito del padre, la madre o quien tenga tu cuidado.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 14 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u1-l5-e03",
+          "unidad": 1,
+          "leccion": 5,
+          "tipo": "completar",
+          "dificultad": 1,
+          "concepto": "trabajo-adolescente",
+          "enunciado": "Con 16 años puedes trabajar como máximo ___ horas a la semana.",
+          "respuesta": "30",
+          "banco": [
+            "30",
+            "60",
+            "100"
+          ],
+          "explicacion": "Los menores de 18 pueden trabajar como máximo 30 horas a la semana.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 14 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u1-l5-e04",
+          "unidad": 1,
+          "leccion": 5,
+          "tipo": "verdadero_falso",
+          "dificultad": 1,
+          "concepto": "trabajo-adolescente",
+          "enunciado": "Si tienes 17 años, puedes hacer horas extra.",
+          "respuesta": false,
+          "explicacion": "Falso. Los menores de 18 nunca pueden hacer horas extra.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 14 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u1-l5-e05",
+          "unidad": 1,
+          "leccion": 5,
+          "tipo": "seleccion_multiple",
+          "dificultad": 1,
+          "concepto": "trabajo-adolescente",
+          "enunciado": "Si eres menor de 18, ¿qué más tienes que cumplir para trabajar?",
+          "opciones": [
+            "Seguir estudiando o haber terminado la media",
+            "Nada más",
+            "Dejar el colegio",
+            "Trabajar de noche"
+          ],
+          "respuesta": 0,
+          "explicacion": "Debes estar estudiando (básica o media) o haber terminado la enseñanza media.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 14 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u1-l5-e06",
+          "unidad": 1,
+          "leccion": 5,
+          "tipo": "seleccion_multiple",
+          "dificultad": 2,
+          "concepto": "trabajo-adolescente",
+          "enunciado": "En época de clases, ¿cuántas horas al día puedes trabajar con 16 años?",
+          "opciones": [
+            "Hasta 12 horas",
+            "Hasta 6 horas",
+            "Hasta 15 horas",
+            "Hasta 20 horas"
+          ],
+          "respuesta": 1,
+          "explicacion": "En el año escolar el máximo es de 6 horas al día, y en vacaciones, de 8.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 14 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u1-l5-e07",
+          "unidad": 1,
+          "leccion": 5,
+          "tipo": "caso_practico",
+          "dificultad": 2,
+          "concepto": "trabajo-adolescente",
+          "caso": "Javiera tiene 16 años. En vacaciones le ofrecen trabajar 8 horas diarias, de lunes a viernes.",
+          "enunciado": "¿Está permitido?",
+          "opciones": [
+            "Sí, porque son vacaciones",
+            "Sí, si le pagan más",
+            "No: se pasa de 30 horas semanales",
+            "No: en vacaciones no se trabaja"
+          ],
+          "respuesta": 2,
+          "explicacion": "En vacaciones puede trabajar hasta 8 horas al día, pero nunca más de 30 a la semana. 8 horas por 5 días son 40.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 14 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u1-l5-e08",
+          "unidad": 1,
+          "leccion": 5,
+          "tipo": "clasificar",
+          "dificultad": 2,
+          "concepto": "trabajo-adolescente",
+          "enunciado": "Si tienes 16 años, ¿está permitido?",
+          "categorias": [
+            "Permitido",
+            "Prohibido"
+          ],
+          "elementos": [
+            {
+              "texto": "Trabajar con permiso escrito",
+              "categoria": 0
+            },
+            {
+              "texto": "Trabajar 6 horas en época de clases",
+              "categoria": 0
+            },
+            {
+              "texto": "Hacer horas extra",
+              "categoria": 1
+            },
+            {
+              "texto": "Trabajar en un comercio a las 23:00",
+              "categoria": 1
+            }
+          ],
+          "explicacion": "Con permiso puedes trabajar hasta 6 horas diarias en clases. Las horas extra y el trabajo nocturno en comercios están prohibidos.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 14 y 18 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u1-l5-e09",
+          "unidad": 1,
+          "leccion": 5,
+          "tipo": "ordenar",
+          "dificultad": 3,
+          "concepto": "trabajo-adolescente",
+          "enunciado": "Ordena de menor a mayor edad.",
+          "pasos": [
+            "Niño o niña: menos de 14",
+            "Sin edad para trabajar: 14 años",
+            "Puede trabajar con permiso: 15 a 17",
+            "Mayor de edad: 18 o más"
+          ],
+          "explicacion": "Antes de los 15 no te pueden contratar. De 15 a 17 se puede, con permiso y requisitos. Desde los 18, libremente.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 13 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u1-l5-e10",
+          "unidad": 1,
+          "leccion": 5,
+          "tipo": "identificar_error",
+          "dificultad": 3,
+          "concepto": "trabajo-adolescente",
+          "enunciado": "Toca la parte que está equivocada.",
+          "segmentos": [
+            "En vacaciones, un adolescente puede trabajar 8 horas al día, ",
+            "y hasta 50 horas a la semana."
+          ],
+          "respuesta": 1,
+          "correccion": "pero nunca más de 30 horas a la semana.",
+          "explicacion": "El máximo semanal para menores de 18 es de 30 horas, también en vacaciones.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 14 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        }
+      ]
+    }
+  ]
+}

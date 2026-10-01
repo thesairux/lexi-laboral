@@ -1,0 +1,403 @@
+[
+  {
+    "termino": "Sueldo mínimo",
+    "alias": [
+      "ingreso mínimo mensual",
+      "ingreso mínimo"
+    ],
+    "definicion": "Lo menos que te pueden pagar al mes por una jornada completa. Desde mayo de 2026: $553.553 si tienes 18 a 65 años y $412.938 si tienes menos de 18.",
+    "unidad": 1,
+    "fuente": {
+      "archivo": "Ley N° 21.830",
+      "articulo": "Arts. 1 y 2 Ley 21.830 (ingreso mínimo desde el 01-05-2026)",
+      "fueraDelMaterial": true
+    },
+    "revisar": false
+  },
+  {
+    "termino": "Jornada",
+    "alias": [
+      "jornada de trabajo",
+      "jornada completa"
+    ],
+    "definicion": "El tiempo que trabajas. Hoy el máximo es de 42 horas a la semana y 10 horas al día.",
+    "unidad": 1,
+    "fuente": {
+      "archivo": "Ley N° 21.561",
+      "articulo": "Art. 22 CT y art. primero transitorio Ley 21.561",
+      "fueraDelMaterial": true
+    },
+    "revisar": false
+  },
+  {
+    "termino": "Horas extra",
+    "alias": [
+      "horas extraordinarias",
+      "hora extra"
+    ],
+    "definicion": "Las horas que trabajas después de tu jornada. Máximo 2 al día, pagadas con un 50% más.",
+    "unidad": 1,
+    "fuente": {
+      "archivo": "Código del Trabajo",
+      "articulo": "Art. 31 y 32 CT",
+      "fueraDelMaterial": true
+    },
+    "revisar": false
+  },
+  {
+    "termino": "Colación",
+    "definicion": "El tiempo para almorzar: al menos media hora, que no cuenta como tiempo trabajado.",
+    "unidad": 1,
+    "fuente": {
+      "archivo": "Código del Trabajo",
+      "articulo": "Art. 34 CT",
+      "fueraDelMaterial": true
+    },
+    "revisar": false
+  },
+  {
+    "termino": "Vacaciones",
+    "alias": [
+      "feriado anual"
+    ],
+    "definicion": "Se llaman feriado anual: 15 días hábiles con sueldo completo después de un año de trabajo.",
+    "unidad": 1,
+    "fuente": {
+      "archivo": "Código del Trabajo",
+      "articulo": "Art. 67 CT",
+      "fueraDelMaterial": true
+    },
+    "revisar": false
+  },
+  {
+    "termino": "Días hábiles",
+    "alias": [
+      "día hábil"
+    ],
+    "definicion": "Para contar las vacaciones, son los días de lunes a viernes que no son festivos. El sábado no cuenta.",
+    "unidad": 1,
+    "fuente": {
+      "archivo": "Código del Trabajo",
+      "articulo": "Art. 69 CT",
+      "fueraDelMaterial": true
+    },
+    "revisar": false
+  },
+  {
+    "termino": "Liquidación de sueldo",
+    "alias": [
+      "liquidación"
+    ],
+    "definicion": "El comprobante que te entregan con el sueldo: cuánto ganaste, cómo se calculó y qué te descontaron.",
+    "unidad": 2,
+    "fuente": {
+      "archivo": "Código del Trabajo",
+      "articulo": "Art. 54 CT",
+      "fueraDelMaterial": true
+    },
+    "revisar": false
+  },
+  {
+    "termino": "AFP",
+    "definicion": "Institución que guarda el 10% de tu sueldo en una cuenta a tu nombre, para tu pensión.",
+    "unidad": 2,
+    "fuente": {
+      "archivo": "DL N° 3.500",
+      "articulo": "Art. 17 DL 3.500",
+      "fueraDelMaterial": true
+    },
+    "revisar": false
+  },
+  {
+    "termino": "Cotización",
+    "alias": [
+      "cotizaciones",
+      "cotizar"
+    ],
+    "definicion": "La parte de tu sueldo que se descuenta para tu pensión, tu salud o el seguro de cesantía.",
+    "unidad": 2,
+    "fuente": {
+      "archivo": "DL N° 3.500",
+      "articulo": "Art. 17 y 84 DL 3.500",
+      "fueraDelMaterial": true
+    },
+    "revisar": false
+  },
+  {
+    "termino": "Seguro de cesantía",
+    "alias": [
+      "cesantía"
+    ],
+    "definicion": "Un seguro que te ayuda con dinero si te quedas sin trabajo. Con contrato indefinido aportas el 0,6% de tu sueldo.",
+    "unidad": 2,
+    "fuente": {
+      "archivo": "Ley N° 19.728",
+      "articulo": "Art. 5 Ley 19.728",
+      "fueraDelMaterial": true
+    },
+    "revisar": false
+  },
+  {
+    "termino": "Contrato a plazo fijo",
+    "alias": [
+      "plazo fijo"
+    ],
+    "definicion": "Contrato con fecha de término. En general dura como máximo un año.",
+    "unidad": 2,
+    "fuente": {
+      "archivo": "Código del Trabajo",
+      "articulo": "Art. 159 CT",
+      "fueraDelMaterial": true
+    },
+    "revisar": false
+  },
+  {
+    "termino": "Contrato indefinido",
+    "alias": [
+      "indefinido"
+    ],
+    "definicion": "Contrato sin fecha de término.",
+    "unidad": 2,
+    "fuente": {
+      "archivo": "Código del Trabajo",
+      "articulo": "Art. 159 CT",
+      "fueraDelMaterial": true
+    },
+    "revisar": false
+  },
+  {
+    "termino": "Finiquito",
+    "definicion": "El documento escrito que cierra el trabajo y muestra lo que te pagan al terminar.",
+    "unidad": 2,
+    "fuente": {
+      "archivo": "Código del Trabajo",
+      "articulo": "Art. 177 CT",
+      "fueraDelMaterial": true
+    },
+    "revisar": false
+  },
+  {
+    "termino": "Indemnización",
+    "alias": [
+      "indemnizaciones"
+    ],
+    "definicion": "Dinero que te paga el empleador en algunos despidos, por ejemplo 30 días de sueldo por cada año trabajado.",
+    "unidad": 2,
+    "fuente": {
+      "archivo": "Código del Trabajo",
+      "articulo": "Art. 163 CT",
+      "fueraDelMaterial": true
+    },
+    "revisar": false
+  },
+  {
+    "termino": "Ministro de fe",
+    "definicion": "Persona que certifica una firma, como un inspector del trabajo o un notario.",
+    "unidad": 2,
+    "fuente": {
+      "archivo": "Código del Trabajo",
+      "articulo": "Art. 177 CT",
+      "fueraDelMaterial": true
+    },
+    "revisar": false
+  },
+  {
+    "termino": "Acoso laboral",
+    "definicion": "Agredir, hostigar o humillar a alguien en el trabajo, aunque pase una sola vez.",
+    "unidad": 2,
+    "fuente": {
+      "archivo": "Código del Trabajo",
+      "articulo": "Art. 2 CT",
+      "fueraDelMaterial": true
+    },
+    "revisar": false
+  },
+  {
+    "termino": "Discriminación",
+    "alias": [
+      "discriminar"
+    ],
+    "definicion": "Tratar distinto a alguien por su apariencia, edad, sexo, nacionalidad u otro motivo que la ley prohíbe.",
+    "unidad": 2,
+    "fuente": {
+      "archivo": "Código del Trabajo",
+      "articulo": "Art. 2 CT",
+      "fueraDelMaterial": true
+    },
+    "revisar": false
+  },
+  {
+    "termino": "Dirección del Trabajo",
+    "alias": [
+      "Inspección del Trabajo",
+      "inspector del trabajo"
+    ],
+    "definicion": "El servicio del Estado que fiscaliza que se cumplan las leyes del trabajo. Sus oficinas son las inspecciones del trabajo.",
+    "unidad": 2,
+    "fuente": {
+      "archivo": "Código del Trabajo",
+      "articulo": "Art. 177 CT",
+      "fueraDelMaterial": true
+    },
+    "revisar": false
+  },
+  {
+    "termino": "Empleador",
+    "alias": [
+      "empleadora"
+    ],
+    "definicion": "La persona o empresa que te contrata y te paga.",
+    "unidad": 2,
+    "fuente": {
+      "archivo": "Código del Trabajo",
+      "articulo": "Art. 3 CT",
+      "fueraDelMaterial": true
+    },
+    "revisar": false
+  },
+  {
+    "termino": "Accidente del trabajo",
+    "alias": [
+      "accidentes del trabajo",
+      "accidente laboral"
+    ],
+    "definicion": "Lesión que sufres por causa o con ocasión de tu trabajo. La atención médica es gratis gracias a un seguro que paga tu empleador.",
+    "unidad": 3,
+    "fuente": {
+      "archivo": "Ley N° 16.744",
+      "articulo": "Arts. 5, 15 y 29 Ley 16.744",
+      "fueraDelMaterial": true
+    },
+    "revisar": false
+  },
+  {
+    "termino": "Accidente de trayecto",
+    "alias": [
+      "accidentes de trayecto"
+    ],
+    "definicion": "Accidente en el camino directo entre tu casa y el trabajo, de ida o de vuelta. El seguro de accidentes también lo cubre.",
+    "unidad": 3,
+    "fuente": {
+      "archivo": "Ley N° 16.744",
+      "articulo": "Art. 5 Ley 16.744",
+      "fueraDelMaterial": true
+    },
+    "revisar": false
+  },
+  {
+    "termino": "Teletrabajo",
+    "alias": [
+      "trabajo a distancia",
+      "teletrabajar"
+    ],
+    "definicion": "Trabajar fuera de la empresa usando computador, internet u otra tecnología. Tienes los mismos derechos y la empresa debe darte los equipos.",
+    "unidad": 3,
+    "fuente": {
+      "archivo": "Código del Trabajo",
+      "articulo": "Arts. 152 quáter G y L CT",
+      "fueraDelMaterial": true
+    },
+    "revisar": false
+  },
+  {
+    "termino": "Desconexión",
+    "alias": [
+      "derecho a desconexión"
+    ],
+    "definicion": "Tiempo en que no tienes que responder mensajes del trabajo: al menos 12 horas seguidas al día, si organizas libremente tu horario.",
+    "unidad": 3,
+    "fuente": {
+      "archivo": "Código del Trabajo",
+      "articulo": "Art. 152 quáter J CT",
+      "fueraDelMaterial": true
+    },
+    "revisar": false
+  },
+  {
+    "termino": "Sindicato",
+    "alias": [
+      "sindicatos",
+      "organización sindical"
+    ],
+    "definicion": "Organización de trabajadores para defender sus derechos. Unirte es voluntario y no te pueden castigar por eso.",
+    "unidad": 4,
+    "fuente": {
+      "archivo": "Código del Trabajo",
+      "articulo": "Arts. 212, 214 y 215 CT",
+      "fueraDelMaterial": true
+    },
+    "revisar": false
+  },
+  {
+    "termino": "Fuero",
+    "alias": [
+      "fuero maternal",
+      "fuero laboral"
+    ],
+    "definicion": "Protección que impide que te despidan sin autorización de un juez. La tiene, por ejemplo, una trabajadora embarazada.",
+    "unidad": 4,
+    "fuente": {
+      "archivo": "Código del Trabajo",
+      "articulo": "Arts. 174 y 201 CT",
+      "fueraDelMaterial": true
+    },
+    "revisar": false
+  },
+  {
+    "termino": "Boleta de honorarios",
+    "alias": [
+      "boletas de honorarios"
+    ],
+    "definicion": "Documento que entregas cuando trabajas como independiente, sin contrato de trabajo. En 2026 se retiene el 15,25% para cotizaciones e impuestos.",
+    "unidad": 4,
+    "fuente": {
+      "archivo": "Ley N° 21.133",
+      "articulo": "Ley 21.133 (retención de boletas de honorarios: 15,25% en 2026, informado por el SII)",
+      "fueraDelMaterial": true
+    },
+    "revisar": false
+  },
+  {
+    "termino": "Sala cuna",
+    "alias": [
+      "salas cuna"
+    ],
+    "definicion": "Lugar donde cuidan a los hijos menores de 2 años de las trabajadoras. Es obligatoria en empresas con 20 o más trabajadoras.",
+    "unidad": 4,
+    "fuente": {
+      "archivo": "Código del Trabajo",
+      "articulo": "Art. 203 CT",
+      "fueraDelMaterial": true
+    },
+    "revisar": false
+  },
+  {
+    "termino": "Postnatal",
+    "alias": [
+      "postnatal parental",
+      "prenatal"
+    ],
+    "definicion": "Descanso pagado por maternidad: 6 semanas antes del parto (prenatal), 12 después (postnatal) y 12 más de postnatal parental.",
+    "unidad": 4,
+    "fuente": {
+      "archivo": "Código del Trabajo",
+      "articulo": "Arts. 195 y 197 bis CT",
+      "fueraDelMaterial": true
+    },
+    "revisar": false
+  },
+  {
+    "termino": "Inspección del Trabajo",
+    "alias": [
+      "inspección del trabajo"
+    ],
+    "definicion": "Oficina de la Dirección del Trabajo donde puedes hacer reclamos y denuncias si no respetan tus derechos laborales.",
+    "unidad": 4,
+    "fuente": {
+      "archivo": "Código del Trabajo",
+      "articulo": "Arts. 168, 505 y 510 CT",
+      "fueraDelMaterial": true
+    },
+    "revisar": false
+  }
+]

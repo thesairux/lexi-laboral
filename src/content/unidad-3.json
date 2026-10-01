@@ -1,0 +1,1368 @@
+{
+  "unidad": 3,
+  "titulo": "Cuídate en el trabajo",
+  "descripcion": "Seguridad, accidentes, domingos en el comercio, trabajar desde la casa y permisos especiales.",
+  "fueraDelMaterial": false,
+  "cofreDespuesDe": 3,
+  "lecciones": [
+    {
+      "id": "u3-l1",
+      "numero": 1,
+      "titulo": "Seguridad en el trabajo",
+      "objetivo": "Saber cómo te debe proteger tu empleador.",
+      "tipoNodo": "leccion",
+      "guia": [
+        {
+          "titulo": "Te deben proteger",
+          "texto": "Tu empleador debe tomar todas las medidas para cuidar tu vida y tu salud, y contarte los riesgos de tu trabajo.",
+          "fuentes": [
+            {
+              "archivo": "Código del Trabajo",
+              "articulo": "Art. 184 CT",
+              "fueraDelMaterial": true
+            }
+          ],
+          "revisar": false
+        },
+        {
+          "titulo": "Equipos gratis",
+          "texto": "El casco, los guantes y los demás equipos de protección te los debe dar la empresa. Nunca te los pueden cobrar.",
+          "fuentes": [
+            {
+              "archivo": "Ley N° 16.744",
+              "articulo": "Art. 68 Ley 16.744",
+              "fueraDelMaterial": true
+            }
+          ],
+          "revisar": false
+        },
+        {
+          "titulo": "Si hay peligro grave",
+          "texto": "Si seguir trabajando pone en grave peligro tu vida o tu salud, puedes parar y salir del lugar. Después le avisas a tu jefe.",
+          "fuentes": [
+            {
+              "archivo": "Código del Trabajo",
+              "articulo": "Art. 184 bis CT",
+              "fueraDelMaterial": true
+            }
+          ],
+          "revisar": false
+        }
+      ],
+      "ejercicios": [
+        {
+          "id": "u3-l1-e01",
+          "unidad": 3,
+          "leccion": 1,
+          "tipo": "seleccion_multiple",
+          "dificultad": 1,
+          "concepto": "seguridad",
+          "enunciado": "¿Quién debe cuidar tu seguridad en el trabajo?",
+          "opciones": [
+            "Tu empleador",
+            "Solo tú",
+            "Tus amigos",
+            "Nadie"
+          ],
+          "respuesta": 0,
+          "explicacion": "El empleador está obligado a tomar todas las medidas para proteger la vida y la salud de sus trabajadores.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 184 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u3-l1-e02",
+          "unidad": 3,
+          "leccion": 1,
+          "tipo": "verdadero_falso",
+          "dificultad": 1,
+          "concepto": "seguridad",
+          "enunciado": "La empresa te puede cobrar el casco de seguridad.",
+          "respuesta": false,
+          "explicacion": "Falso. La empresa debe darte los equipos de protección y no puede cobrarte por ellos.",
+          "fuente": {
+            "archivo": "Ley N° 16.744",
+            "articulo": "Art. 68 Ley 16.744",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u3-l1-e03",
+          "unidad": 3,
+          "leccion": 1,
+          "tipo": "completar",
+          "dificultad": 1,
+          "concepto": "seguridad",
+          "enunciado": "Tu empleador debe contarte los ___ de tu trabajo.",
+          "respuesta": "riesgos",
+          "banco": [
+            "riesgos",
+            "chistes",
+            "secretos"
+          ],
+          "explicacion": "El empleador debe informarte los posibles riesgos de tu trabajo y darte lo necesario para prevenir accidentes.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 184 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u3-l1-e04",
+          "unidad": 3,
+          "leccion": 1,
+          "tipo": "verdadero_falso",
+          "dificultad": 1,
+          "concepto": "seguridad",
+          "enunciado": "Si hay un peligro grave para tu vida, puedes dejar de trabajar.",
+          "respuesta": true,
+          "explicacion": "Verdadero. Puedes interrumpir tus labores y salir del lugar si hay un riesgo grave e inminente. Luego avisas a tu empleador.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 184 bis CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u3-l1-e05",
+          "unidad": 3,
+          "leccion": 1,
+          "tipo": "seleccion_multiple",
+          "dificultad": 1,
+          "concepto": "seguridad",
+          "enunciado": "¿Quién paga los guantes de seguridad que necesitas?",
+          "opciones": [
+            "Tú",
+            "La empresa",
+            "Tus papás",
+            "Un cliente"
+          ],
+          "respuesta": 1,
+          "explicacion": "Los equipos e implementos de protección los entrega la empresa, sin cobrarte su valor.",
+          "fuente": {
+            "archivo": "Ley N° 16.744",
+            "articulo": "Art. 68 Ley 16.744",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u3-l1-e06",
+          "unidad": 3,
+          "leccion": 1,
+          "tipo": "caso_practico",
+          "dificultad": 2,
+          "concepto": "seguridad",
+          "caso": "En la bodega donde trabaja Tomás empieza a salir humo y nadie sabe de dónde viene.",
+          "enunciado": "¿Qué puede hacer Tomás?",
+          "opciones": [
+            "Seguir trabajando igual",
+            "Esperar a fin de mes",
+            "Parar y salir del lugar",
+            "Esconderse en la bodega"
+          ],
+          "respuesta": 2,
+          "explicacion": "Ante un riesgo grave e inminente, Tomás puede dejar de trabajar y salir. Después debe avisar a su empleador.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 184 bis CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u3-l1-e07",
+          "unidad": 3,
+          "leccion": 1,
+          "tipo": "verdadero_falso",
+          "dificultad": 2,
+          "concepto": "seguridad",
+          "enunciado": "Si paras de trabajar por un peligro grave, te pueden castigar por eso.",
+          "respuesta": false,
+          "explicacion": "Falso. No puedes sufrir ningún perjuicio por parar de trabajar para proteger tu vida o tu salud ante un riesgo grave.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 184 bis CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u3-l1-e08",
+          "unidad": 3,
+          "leccion": 1,
+          "tipo": "seleccion_multiple",
+          "dificultad": 2,
+          "concepto": "seguridad",
+          "enunciado": "Si hay un riesgo grave que no se puede controlar, ¿qué debe hacer el empleador?",
+          "opciones": [
+            "No decir nada",
+            "Pedir que trabajen más rápido",
+            "Cerrar las puertas con llave",
+            "Suspender el trabajo y evacuar"
+          ],
+          "respuesta": 3,
+          "explicacion": "El empleador debe avisar del riesgo y, si no se puede eliminar, suspender el trabajo y evacuar a los trabajadores.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 184 bis CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u3-l1-e09",
+          "unidad": 3,
+          "leccion": 1,
+          "tipo": "unir_pares",
+          "dificultad": 3,
+          "concepto": "seguridad",
+          "enunciado": "Une cada situación con lo que dice la ley.",
+          "pares": [
+            {
+              "a": "Necesitas un casco",
+              "b": "La empresa te lo da"
+            },
+            {
+              "a": "Hay un peligro grave",
+              "b": "Puedes salir del lugar"
+            },
+            {
+              "a": "Los riesgos de tu trabajo",
+              "b": "Te los deben informar"
+            }
+          ],
+          "explicacion": "La empresa te da los equipos gratis, te informa los riesgos y, si hay peligro grave, puedes salir del lugar.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 184 y 184 bis CT; art. 68 Ley 16.744",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u3-l1-e10",
+          "unidad": 3,
+          "leccion": 1,
+          "tipo": "identificar_error",
+          "dificultad": 3,
+          "concepto": "seguridad",
+          "enunciado": "Toca la parte que está equivocada.",
+          "segmentos": [
+            "Los guantes y el casco de seguridad ",
+            "los paga el trabajador."
+          ],
+          "respuesta": 1,
+          "correccion": "los da gratis la empresa.",
+          "explicacion": "La empresa debe darte los equipos de protección y no puede cobrarte su valor.",
+          "fuente": {
+            "archivo": "Ley N° 16.744",
+            "articulo": "Art. 68 Ley 16.744",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        }
+      ]
+    },
+    {
+      "id": "u3-l2",
+      "numero": 2,
+      "titulo": "Si tienes un accidente",
+      "objetivo": "Saber qué pasa si te accidentas por tu trabajo.",
+      "tipoNodo": "leccion",
+      "guia": [
+        {
+          "titulo": "Accidente del trabajo",
+          "texto": "Es una lesión que sufres por causa o con ocasión de tu trabajo. Hay un seguro obligatorio que te protege.",
+          "fuentes": [
+            {
+              "archivo": "Ley N° 16.744",
+              "articulo": "Arts. 2 y 5 Ley 16.744",
+              "fueraDelMaterial": true
+            }
+          ],
+          "revisar": false
+        },
+        {
+          "titulo": "También en el camino",
+          "texto": "Si te accidentas en el camino directo entre tu casa y el trabajo, de ida o de vuelta, es un accidente de trayecto. También está cubierto.",
+          "fuentes": [
+            {
+              "archivo": "Ley N° 16.744",
+              "articulo": "Art. 5 Ley 16.744",
+              "fueraDelMaterial": true
+            }
+          ],
+          "revisar": false
+        },
+        {
+          "titulo": "Atención gratis",
+          "texto": "La atención médica, los remedios y la rehabilitación son gratis hasta que te recuperes. El seguro lo paga tu empleador, no tú.",
+          "fuentes": [
+            {
+              "archivo": "Ley N° 16.744",
+              "articulo": "Arts. 15 y 29 Ley 16.744",
+              "fueraDelMaterial": true
+            }
+          ],
+          "revisar": false
+        }
+      ],
+      "ejercicios": [
+        {
+          "id": "u3-l2-e01",
+          "unidad": 3,
+          "leccion": 2,
+          "tipo": "verdadero_falso",
+          "dificultad": 1,
+          "concepto": "accidentes",
+          "enunciado": "Si te accidentas en tu trabajo, la atención médica es gratis.",
+          "respuesta": true,
+          "explicacion": "Verdadero. Tienes atención médica, hospitalización, remedios y rehabilitación gratis hasta que te recuperes.",
+          "fuente": {
+            "archivo": "Ley N° 16.744",
+            "articulo": "Art. 29 Ley 16.744",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u3-l2-e02",
+          "unidad": 3,
+          "leccion": 2,
+          "tipo": "seleccion_multiple",
+          "dificultad": 1,
+          "concepto": "accidentes",
+          "enunciado": "¿Cómo se llama un accidente en el camino de tu casa al trabajo?",
+          "opciones": [
+            "Accidente de trayecto",
+            "Accidente de vacaciones",
+            "Accidente doméstico",
+            "No tiene nombre"
+          ],
+          "respuesta": 0,
+          "explicacion": "Es un accidente de trayecto: ocurre en el camino directo, de ida o de vuelta, entre tu casa y el trabajo. El seguro lo cubre.",
+          "fuente": {
+            "archivo": "Ley N° 16.744",
+            "articulo": "Art. 5 Ley 16.744",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u3-l2-e03",
+          "unidad": 3,
+          "leccion": 2,
+          "tipo": "completar",
+          "dificultad": 1,
+          "concepto": "accidentes",
+          "enunciado": "El seguro de accidentes del trabajo lo paga el ___.",
+          "respuesta": "empleador",
+          "banco": [
+            "empleador",
+            "trabajador",
+            "colegio"
+          ],
+          "explicacion": "La cotización del seguro de accidentes es de cargo del empleador. A ti no te descuentan nada por eso.",
+          "fuente": {
+            "archivo": "Ley N° 16.744",
+            "articulo": "Art. 15 Ley 16.744",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u3-l2-e04",
+          "unidad": 3,
+          "leccion": 2,
+          "tipo": "verdadero_falso",
+          "dificultad": 1,
+          "concepto": "accidentes",
+          "enunciado": "El seguro te cubre si te accidentas camino a tu trabajo.",
+          "respuesta": true,
+          "explicacion": "Verdadero. Los accidentes en el trayecto directo entre tu casa y el trabajo también son accidentes del trabajo.",
+          "fuente": {
+            "archivo": "Ley N° 16.744",
+            "articulo": "Art. 5 Ley 16.744",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u3-l2-e05",
+          "unidad": 3,
+          "leccion": 2,
+          "tipo": "seleccion_multiple",
+          "dificultad": 1,
+          "concepto": "accidentes",
+          "enunciado": "¿Qué es un accidente del trabajo?",
+          "opciones": [
+            "Llegar tarde al trabajo",
+            "Una lesión por causa del trabajo",
+            "Romper un vaso en tu casa",
+            "Una pelea en el colegio"
+          ],
+          "respuesta": 1,
+          "explicacion": "Es toda lesión que sufres a causa o con ocasión de tu trabajo y que te impide trabajar, aunque sea por un tiempo.",
+          "fuente": {
+            "archivo": "Ley N° 16.744",
+            "articulo": "Art. 5 Ley 16.744",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u3-l2-e06",
+          "unidad": 3,
+          "leccion": 2,
+          "tipo": "caso_practico",
+          "dificultad": 2,
+          "concepto": "accidentes",
+          "caso": "Martina iba directo de su casa al supermercado donde trabaja y se torció el tobillo en la calle.",
+          "enunciado": "¿Qué tipo de accidente es?",
+          "opciones": [
+            "No es nada, es su problema",
+            "Uno que paga Martina",
+            "Un accidente de trayecto",
+            "Un accidente del colegio"
+          ],
+          "respuesta": 2,
+          "explicacion": "Le pasó en el trayecto directo de su casa al trabajo, así que es un accidente de trayecto y el seguro la cubre.",
+          "fuente": {
+            "archivo": "Ley N° 16.744",
+            "articulo": "Art. 5 Ley 16.744",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u3-l2-e07",
+          "unidad": 3,
+          "leccion": 2,
+          "tipo": "seleccion_multiple",
+          "dificultad": 2,
+          "concepto": "accidentes",
+          "enunciado": "Si el empleador no avisa tu accidente al seguro, ¿quién más puede avisarlo?",
+          "opciones": [
+            "Nadie más",
+            "Un vecino cualquiera",
+            "Solo el alcalde",
+            "Tú o tu médico"
+          ],
+          "respuesta": 3,
+          "explicacion": "El empleador debe denunciar el accidente de inmediato. Si no lo hace, puedes hacerlo tú, tu familia o el médico que te atendió.",
+          "fuente": {
+            "archivo": "Ley N° 16.744",
+            "articulo": "Art. 76 Ley 16.744",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u3-l2-e08",
+          "unidad": 3,
+          "leccion": 2,
+          "tipo": "verdadero_falso",
+          "dificultad": 2,
+          "concepto": "accidentes",
+          "enunciado": "Una enfermedad causada directamente por tu trabajo también está cubierta.",
+          "respuesta": true,
+          "explicacion": "Verdadero. Se llama enfermedad profesional y tiene la misma atención gratis que un accidente del trabajo.",
+          "fuente": {
+            "archivo": "Ley N° 16.744",
+            "articulo": "Arts. 7 y 29 Ley 16.744",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u3-l2-e09",
+          "unidad": 3,
+          "leccion": 2,
+          "tipo": "clasificar",
+          "dificultad": 3,
+          "concepto": "accidentes",
+          "enunciado": "¿Lo cubre el seguro de accidentes del trabajo?",
+          "categorias": [
+            "Sí lo cubre",
+            "No lo cubre"
+          ],
+          "elementos": [
+            {
+              "texto": "Te cortas en la cocina del local",
+              "categoria": 0
+            },
+            {
+              "texto": "Caes en el camino directo al trabajo",
+              "categoria": 0
+            },
+            {
+              "texto": "Te lesionas cargando cajas en bodega",
+              "categoria": 0
+            },
+            {
+              "texto": "Te caes jugando fútbol el domingo",
+              "categoria": 1
+            },
+            {
+              "texto": "Te tuerces un pie en vacaciones",
+              "categoria": 1
+            }
+          ],
+          "explicacion": "Cubre las lesiones por causa del trabajo y en el trayecto directo. Lo que pasa fuera del trabajo no es un accidente laboral.",
+          "fuente": {
+            "archivo": "Ley N° 16.744",
+            "articulo": "Art. 5 Ley 16.744",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u3-l2-e10",
+          "unidad": 3,
+          "leccion": 2,
+          "tipo": "identificar_error",
+          "dificultad": 3,
+          "concepto": "accidentes",
+          "enunciado": "Toca la parte que está equivocada.",
+          "segmentos": [
+            "Si te accidentas trabajando, ",
+            "la atención médica la pagas tú."
+          ],
+          "respuesta": 1,
+          "correccion": "la atención médica es gratis.",
+          "explicacion": "Quien sufre un accidente del trabajo recibe atención médica gratis hasta su curación completa.",
+          "fuente": {
+            "archivo": "Ley N° 16.744",
+            "articulo": "Art. 29 Ley 16.744",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        }
+      ]
+    },
+    {
+      "id": "u3-l3",
+      "numero": 3,
+      "titulo": "Domingos en el comercio",
+      "objetivo": "Conocer tus derechos si trabajas los domingos atendiendo público.",
+      "tipoNodo": "leccion",
+      "guia": [
+        {
+          "titulo": "Domingo con recargo",
+          "texto": "Si atiendes público en el comercio, como en una tienda o un supermercado, las horas normales del domingo se pagan con un recargo de al menos 30%.",
+          "fuentes": [
+            {
+              "archivo": "Código del Trabajo",
+              "articulo": "Art. 38 inc. 3 CT",
+              "fueraDelMaterial": true
+            }
+          ],
+          "revisar": false
+        },
+        {
+          "titulo": "Un día a cambio",
+          "texto": "Si trabajas el domingo, te deben dar otro día de descanso esa semana. Y por cada festivo trabajado, otro día más.",
+          "fuentes": [
+            {
+              "archivo": "Código del Trabajo",
+              "articulo": "Art. 38 inc. 4 CT",
+              "fueraDelMaterial": true
+            }
+          ],
+          "revisar": false
+        },
+        {
+          "titulo": "Domingos libres",
+          "texto": "Al menos dos domingos al mes deben ser libres, más 7 domingos extra al año. Ojo: no aplica si trabajas solo fines de semana o 20 horas o menos.",
+          "fuentes": [
+            {
+              "archivo": "Código del Trabajo",
+              "articulo": "Arts. 38 inc. 5 y 38 bis CT",
+              "fueraDelMaterial": true
+            }
+          ],
+          "revisar": false
+        }
+      ],
+      "ejercicios": [
+        {
+          "id": "u3-l3-e01",
+          "unidad": 3,
+          "leccion": 3,
+          "tipo": "verdadero_falso",
+          "dificultad": 1,
+          "concepto": "domingos",
+          "enunciado": "En el comercio, las horas normales del domingo se pagan con recargo.",
+          "respuesta": true,
+          "explicacion": "Verdadero. Si atiendes público en comercio o servicios, las horas normales del domingo se pagan con un recargo de al menos 30%.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 38 inc. 3 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u3-l3-e02",
+          "unidad": 3,
+          "leccion": 3,
+          "tipo": "seleccion_multiple",
+          "dificultad": 1,
+          "concepto": "domingos",
+          "enunciado": "¿De cuánto es, como mínimo, el recargo por trabajar el domingo en el comercio?",
+          "opciones": [
+            "30%",
+            "5%",
+            "100%",
+            "Nada"
+          ],
+          "respuesta": 0,
+          "explicacion": "El recargo es de al menos 30%, calculado sobre el sueldo de la jornada normal.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 38 inc. 3 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u3-l3-e03",
+          "unidad": 3,
+          "leccion": 3,
+          "tipo": "completar",
+          "dificultad": 1,
+          "concepto": "domingos",
+          "enunciado": "Si trabajas el domingo, te deben dar otro día de ___.",
+          "respuesta": "descanso",
+          "banco": [
+            "descanso",
+            "castigo",
+            "trabajo"
+          ],
+          "explicacion": "Las empresas que trabajan el domingo deben darte un día de descanso a la semana a cambio.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 38 inc. 4 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u3-l3-e04",
+          "unidad": 3,
+          "leccion": 3,
+          "tipo": "verdadero_falso",
+          "dificultad": 1,
+          "concepto": "domingos",
+          "enunciado": "Los 7 domingos libres extra del año se pueden cambiar por plata.",
+          "respuesta": false,
+          "explicacion": "Falso. Ese descanso no se puede pagar en dinero ni juntar de un año para otro.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 38 bis CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u3-l3-e05",
+          "unidad": 3,
+          "leccion": 3,
+          "tipo": "seleccion_multiple",
+          "dificultad": 1,
+          "concepto": "domingos",
+          "enunciado": "En el comercio, ¿cuántos domingos libres al mes debes tener como mínimo?",
+          "opciones": [
+            "Ninguno",
+            "Dos",
+            "Uno al año",
+            "Todos"
+          ],
+          "respuesta": 1,
+          "explicacion": "Al menos dos de tus días de descanso del mes deben ser domingo. No aplica a contratos de 30 días o menos ni a jornadas cortas.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 38 inc. 5 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u3-l3-e06",
+          "unidad": 3,
+          "leccion": 3,
+          "tipo": "caso_practico",
+          "dificultad": 2,
+          "concepto": "domingos",
+          "caso": "Joaquín trabaja en una tienda del mall y este mes le tocó trabajar un día festivo.",
+          "enunciado": "¿Qué le corresponde por ese festivo?",
+          "opciones": [
+            "Nada, es su obligación",
+            "Una multa",
+            "Otro día de descanso",
+            "Un domingo menos"
+          ],
+          "respuesta": 2,
+          "explicacion": "Por cada festivo trabajado, la empresa debe darle otro día de descanso a cambio.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 38 inc. 4 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u3-l3-e07",
+          "unidad": 3,
+          "leccion": 3,
+          "tipo": "caso_practico",
+          "dificultad": 2,
+          "concepto": "domingos",
+          "caso": "Florencia tiene un contrato para trabajar solo sábados y domingos en una heladería.",
+          "enunciado": "¿Tiene derecho a los 7 domingos libres extra?",
+          "opciones": [
+            "Sí, siempre",
+            "Solo si lo pide su mamá",
+            "Sí, y además 20 más",
+            "No, su contrato es solo de fin de semana"
+          ],
+          "respuesta": 3,
+          "explicacion": "Los 7 domingos extra no se aplican a quienes se contratan solo para sábados, domingos o festivos, ni a jornadas de 20 horas o menos.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 38 bis CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u3-l3-e08",
+          "unidad": 3,
+          "leccion": 3,
+          "tipo": "seleccion_multiple",
+          "dificultad": 2,
+          "concepto": "domingos",
+          "enunciado": "¿Cuántos domingos libres extra al año tienen quienes trabajan en el comercio?",
+          "opciones": [
+            "Siete",
+            "Uno",
+            "Cien",
+            "Ninguno"
+          ],
+          "respuesta": 0,
+          "explicacion": "Además de los dos domingos libres al mes, tienen 7 domingos extra al año. Hasta 3 se pueden cambiar por sábados, solo con acuerdo escrito.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 38 bis CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u3-l3-e09",
+          "unidad": 3,
+          "leccion": 3,
+          "tipo": "unir_pares",
+          "dificultad": 3,
+          "concepto": "domingos",
+          "enunciado": "Une cada regla del comercio.",
+          "pares": [
+            {
+              "a": "Recargo del domingo",
+              "b": "Al menos 30%"
+            },
+            {
+              "a": "Domingos libres al mes",
+              "b": "Al menos dos"
+            },
+            {
+              "a": "Domingos extra al año",
+              "b": "Siete"
+            }
+          ],
+          "explicacion": "En el comercio: recargo de al menos 30% el domingo, dos domingos libres al mes y 7 domingos extra al año.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Arts. 38 y 38 bis CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u3-l3-e10",
+          "unidad": 3,
+          "leccion": 3,
+          "tipo": "identificar_error",
+          "dificultad": 3,
+          "concepto": "domingos",
+          "enunciado": "Toca la parte que está equivocada.",
+          "segmentos": [
+            "Si trabajas un domingo en una tienda, ",
+            "no te dan ningún día libre a cambio."
+          ],
+          "respuesta": 1,
+          "correccion": "te dan otro día de descanso esa semana.",
+          "explicacion": "La empresa debe darte un día de descanso a la semana a cambio del domingo trabajado.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 38 inc. 4 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        }
+      ]
+    },
+    {
+      "id": "u3-l4",
+      "numero": 4,
+      "titulo": "Trabajar desde la casa",
+      "objetivo": "Conocer tus derechos si trabajas a distancia.",
+      "tipoNodo": "leccion",
+      "guia": [
+        {
+          "titulo": "Trabajo a distancia",
+          "texto": "Es trabajar desde tu casa u otro lugar fuera de la empresa. Si usas computador o internet, se llama teletrabajo. Tienes los mismos derechos.",
+          "fuentes": [
+            {
+              "archivo": "Código del Trabajo",
+              "articulo": "Art. 152 quáter G CT",
+              "fueraDelMaterial": true
+            }
+          ],
+          "revisar": false
+        },
+        {
+          "titulo": "Equipos de la empresa",
+          "texto": "El computador, las herramientas y los materiales los debe dar la empresa. No te pueden obligar a usar tus cosas, y las reparaciones las paga ella.",
+          "fuentes": [
+            {
+              "archivo": "Código del Trabajo",
+              "articulo": "Art. 152 quáter L CT",
+              "fueraDelMaterial": true
+            }
+          ],
+          "revisar": false
+        },
+        {
+          "titulo": "Derecho a desconectarte",
+          "texto": "Si organizas libremente tu horario, tienes al menos 12 horas seguidas al día sin responder mensajes. En tus días libres y vacaciones, no te pueden pedir trabajo.",
+          "fuentes": [
+            {
+              "archivo": "Código del Trabajo",
+              "articulo": "Art. 152 quáter J CT",
+              "fueraDelMaterial": true
+            }
+          ],
+          "revisar": false
+        }
+      ],
+      "ejercicios": [
+        {
+          "id": "u3-l4-e01",
+          "unidad": 3,
+          "leccion": 4,
+          "tipo": "seleccion_multiple",
+          "dificultad": 1,
+          "concepto": "teletrabajo",
+          "enunciado": "¿Cómo se llama trabajar desde tu casa usando computador e internet?",
+          "opciones": [
+            "Vacaciones",
+            "Teletrabajo",
+            "Horas extra",
+            "Colación"
+          ],
+          "respuesta": 1,
+          "explicacion": "Si trabajas a distancia usando tecnología, como computador o internet, se llama teletrabajo.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 152 quáter G CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u3-l4-e02",
+          "unidad": 3,
+          "leccion": 4,
+          "tipo": "verdadero_falso",
+          "dificultad": 1,
+          "concepto": "teletrabajo",
+          "enunciado": "Si trabajas desde tu casa, tienes los mismos derechos que en la oficina.",
+          "respuesta": true,
+          "explicacion": "Verdadero. Quienes trabajan a distancia o en teletrabajo tienen todos los derechos del Código del Trabajo.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 152 quáter G CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u3-l4-e03",
+          "unidad": 3,
+          "leccion": 4,
+          "tipo": "completar",
+          "dificultad": 1,
+          "concepto": "teletrabajo",
+          "enunciado": "El computador para el teletrabajo lo debe dar la ___.",
+          "respuesta": "empresa",
+          "banco": [
+            "empresa",
+            "familia",
+            "escuela"
+          ],
+          "explicacion": "Los equipos, herramientas y materiales para trabajar a distancia los debe entregar el empleador.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 152 quáter L CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u3-l4-e04",
+          "unidad": 3,
+          "leccion": 4,
+          "tipo": "verdadero_falso",
+          "dificultad": 1,
+          "concepto": "teletrabajo",
+          "enunciado": "Tu jefe te puede obligar a usar tu propio computador.",
+          "respuesta": false,
+          "explicacion": "Falso. No te pueden obligar a usar cosas tuyas: el empleador debe darte los equipos.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 152 quáter L CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u3-l4-e05",
+          "unidad": 3,
+          "leccion": 4,
+          "tipo": "seleccion_multiple",
+          "dificultad": 1,
+          "concepto": "teletrabajo",
+          "enunciado": "Si organizas tu horario libremente, ¿cuántas horas seguidas de desconexión tienes al día?",
+          "opciones": [
+            "Una",
+            "Cero",
+            "Doce",
+            "Tres"
+          ],
+          "respuesta": 2,
+          "explicacion": "El tiempo de desconexión es de al menos 12 horas seguidas en cada día de 24 horas.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 152 quáter J CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u3-l4-e06",
+          "unidad": 3,
+          "leccion": 4,
+          "tipo": "caso_practico",
+          "dificultad": 2,
+          "concepto": "teletrabajo",
+          "caso": "Sofía teletrabaja con horario libre y está de vacaciones. Su jefe le escribe para que entregue un informe urgente.",
+          "enunciado": "¿Puede hacer eso su jefe?",
+          "opciones": [
+            "Sí, cuando quiera",
+            "Sí, y debe pagarlo ella",
+            "Solo si es de noche",
+            "No, en vacaciones no le pueden pedir trabajo"
+          ],
+          "respuesta": 3,
+          "explicacion": "En días de descanso, permisos o vacaciones, el empleador no puede enviarle órdenes ni pedirle trabajo.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 152 quáter J CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u3-l4-e07",
+          "unidad": 3,
+          "leccion": 4,
+          "tipo": "caso_practico",
+          "dificultad": 2,
+          "concepto": "teletrabajo",
+          "caso": "Se echó a perder el computador que la empresa le pasó a Diego para teletrabajar.",
+          "enunciado": "¿Quién paga la reparación?",
+          "opciones": [
+            "La empresa",
+            "Los papás de Diego",
+            "Nadie, se queda sin computador",
+            "Diego"
+          ],
+          "respuesta": 0,
+          "explicacion": "Los costos de mantención y reparación de los equipos son siempre del empleador.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 152 quáter L CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u3-l4-e08",
+          "unidad": 3,
+          "leccion": 4,
+          "tipo": "seleccion_multiple",
+          "dificultad": 2,
+          "concepto": "teletrabajo",
+          "enunciado": "¿Puede tu jefe entrar a tu casa a revisar tu puesto de teletrabajo sin permiso?",
+          "opciones": [
+            "Sí, cuando quiera",
+            "No, necesita tu autorización",
+            "Sí, si lleva un casco",
+            "Solo de noche"
+          ],
+          "respuesta": 1,
+          "explicacion": "Si trabajas desde tu casa, el empleador no puede entrar sin tu autorización previa.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 152 quáter M CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u3-l4-e09",
+          "unidad": 3,
+          "leccion": 4,
+          "tipo": "unir_pares",
+          "dificultad": 3,
+          "concepto": "teletrabajo",
+          "enunciado": "Une cada tema del teletrabajo con su regla.",
+          "pares": [
+            {
+              "a": "Computador y materiales",
+              "b": "Los da la empresa"
+            },
+            {
+              "a": "Desconexión",
+              "b": "Al menos 12 horas seguidas"
+            },
+            {
+              "a": "Entrar a tu casa",
+              "b": "Solo con tu permiso"
+            }
+          ],
+          "explicacion": "En teletrabajo, la empresa da los equipos, respeta tu desconexión y no entra a tu casa sin tu permiso.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Arts. 152 quáter J, L y M CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u3-l4-e10",
+          "unidad": 3,
+          "leccion": 4,
+          "tipo": "identificar_error",
+          "dificultad": 3,
+          "concepto": "teletrabajo",
+          "enunciado": "Toca la parte que está equivocada.",
+          "segmentos": [
+            "En el teletrabajo, ",
+            "las reparaciones del computador ",
+            "las paga el trabajador."
+          ],
+          "respuesta": 2,
+          "correccion": "las paga el empleador.",
+          "explicacion": "Los costos de mantención y reparación de los equipos son siempre del empleador.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 152 quáter L CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        }
+      ]
+    },
+    {
+      "id": "u3-l5",
+      "numero": 5,
+      "titulo": "Permisos especiales",
+      "objetivo": "Conocer los permisos pagados que te da la ley.",
+      "tipoNodo": "leccion",
+      "guia": [
+        {
+          "titulo": "Si nace un hijo",
+          "texto": "El papá tiene 5 días de permiso pagado cuando nace su hijo. Puede usarlos seguidos desde el parto o repartirlos en el primer mes.",
+          "fuentes": [
+            {
+              "archivo": "Código del Trabajo",
+              "articulo": "Art. 195 inc. 2 CT",
+              "fueraDelMaterial": true
+            }
+          ],
+          "revisar": false
+        },
+        {
+          "titulo": "Si te casas",
+          "texto": "Si te casas o firmas un acuerdo de unión civil, tienes 5 días hábiles seguidos de permiso pagado, además de tus vacaciones. Avisa con 30 días de anticipación.",
+          "fuentes": [
+            {
+              "archivo": "Código del Trabajo",
+              "articulo": "Art. 207 bis CT",
+              "fueraDelMaterial": true
+            }
+          ],
+          "revisar": false
+        },
+        {
+          "titulo": "Si muere un familiar",
+          "texto": "Hay permiso pagado si muere un familiar: 10 días corridos por un hijo, 7 corridos por tu cónyuge o conviviente civil, y 4 hábiles por papá, mamá o hermano.",
+          "fuentes": [
+            {
+              "archivo": "Código del Trabajo",
+              "articulo": "Art. 66 CT",
+              "fueraDelMaterial": true
+            }
+          ],
+          "revisar": false
+        }
+      ],
+      "ejercicios": [
+        {
+          "id": "u3-l5-e01",
+          "unidad": 3,
+          "leccion": 5,
+          "tipo": "seleccion_multiple",
+          "dificultad": 1,
+          "concepto": "permisos",
+          "enunciado": "¿Cuántos días de permiso pagado tiene un papá cuando nace su hijo?",
+          "opciones": [
+            "Ninguno",
+            "Treinta",
+            "Cinco",
+            "Uno"
+          ],
+          "respuesta": 2,
+          "explicacion": "El padre tiene 5 días de permiso pagado por el nacimiento de un hijo. Este derecho no se puede renunciar.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 195 inc. 2 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u3-l5-e02",
+          "unidad": 3,
+          "leccion": 5,
+          "tipo": "verdadero_falso",
+          "dificultad": 1,
+          "concepto": "permisos",
+          "enunciado": "Si te casas, tienes días de permiso pagado además de tus vacaciones.",
+          "respuesta": true,
+          "explicacion": "Verdadero. Tienes 5 días hábiles seguidos de permiso pagado, que se suman a tus vacaciones.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 207 bis CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u3-l5-e03",
+          "unidad": 3,
+          "leccion": 5,
+          "tipo": "completar",
+          "dificultad": 1,
+          "concepto": "permisos",
+          "enunciado": "Por matrimonio o unión civil tienes ___ días hábiles de permiso pagado.",
+          "respuesta": "5",
+          "banco": [
+            "5",
+            "15",
+            "1"
+          ],
+          "explicacion": "Son 5 días hábiles seguidos, que puedes usar el día de la ceremonia y los días justo antes o después.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 207 bis CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u3-l5-e04",
+          "unidad": 3,
+          "leccion": 5,
+          "tipo": "verdadero_falso",
+          "dificultad": 1,
+          "concepto": "permisos",
+          "enunciado": "Los permisos por la muerte de un familiar se pueden cambiar por plata.",
+          "respuesta": false,
+          "explicacion": "Falso. Los días de permiso por fallecimiento no se pueden pagar en dinero.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 66 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u3-l5-e05",
+          "unidad": 3,
+          "leccion": 5,
+          "tipo": "seleccion_multiple",
+          "dificultad": 1,
+          "concepto": "permisos",
+          "enunciado": "¿Para qué es el medio día de permiso al año que da la ley?",
+          "opciones": [
+            "Para ir al cine",
+            "Para dormir siesta",
+            "Para ir de compras",
+            "Para hacerte exámenes preventivos"
+          ],
+          "respuesta": 3,
+          "explicacion": "Si tu contrato dura más de 30 días, tienes medio día al año para exámenes preventivos, como la mamografía o el de próstata.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 66 bis CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u3-l5-e06",
+          "unidad": 3,
+          "leccion": 5,
+          "tipo": "caso_practico",
+          "dificultad": 2,
+          "concepto": "permisos",
+          "caso": "Agustín se casa el próximo mes y quiere usar su permiso por matrimonio.",
+          "enunciado": "¿Con cuánta anticipación debe avisar a su empleador?",
+          "opciones": [
+            "Con 30 días",
+            "Un día antes",
+            "No necesita avisar",
+            "Con un año"
+          ],
+          "respuesta": 0,
+          "explicacion": "Debe avisar con 30 días de anticipación y, después, presentar el certificado del Registro Civil dentro de 30 días.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 207 bis CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u3-l5-e07",
+          "unidad": 3,
+          "leccion": 5,
+          "tipo": "seleccion_multiple",
+          "dificultad": 2,
+          "concepto": "permisos",
+          "enunciado": "Si muere el papá, la mamá o un hermano, ¿cuántos días de permiso pagado hay?",
+          "opciones": [
+            "Ninguno",
+            "Cuatro días hábiles",
+            "Un mes",
+            "Medio día"
+          ],
+          "respuesta": 1,
+          "explicacion": "Si muere el padre, la madre o un hermano, el permiso pagado es de 4 días hábiles.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 66 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u3-l5-e08",
+          "unidad": 3,
+          "leccion": 5,
+          "tipo": "caso_practico",
+          "dificultad": 2,
+          "concepto": "permisos",
+          "caso": "A Benjamín le acaba de nacer su hija y quiere repartir sus días de permiso.",
+          "enunciado": "¿Puede hacerlo?",
+          "opciones": [
+            "No, debe usarlos el mismo día",
+            "Solo si su jefe quiere",
+            "Sí, dentro del primer mes",
+            "No tiene permiso"
+          ],
+          "respuesta": 2,
+          "explicacion": "El padre puede usar los 5 días seguidos desde el parto o repartirlos dentro del primer mes desde el nacimiento.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 195 inc. 2 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u3-l5-e09",
+          "unidad": 3,
+          "leccion": 5,
+          "tipo": "unir_pares",
+          "dificultad": 3,
+          "concepto": "permisos",
+          "enunciado": "Une cada situación con su permiso pagado.",
+          "pares": [
+            {
+              "a": "Nace tu hijo",
+              "b": "5 días"
+            },
+            {
+              "a": "Exámenes preventivos",
+              "b": "Medio día al año"
+            },
+            {
+              "a": "Muere tu hermano",
+              "b": "4 días hábiles"
+            }
+          ],
+          "explicacion": "Nacimiento de un hijo: 5 días. Exámenes preventivos: medio día al año. Muerte de un hermano: 4 días hábiles. Todos son pagados.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Arts. 66, 66 bis y 195 CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        },
+        {
+          "id": "u3-l5-e10",
+          "unidad": 3,
+          "leccion": 5,
+          "tipo": "identificar_error",
+          "dificultad": 3,
+          "concepto": "permisos",
+          "enunciado": "Toca la parte que está equivocada.",
+          "segmentos": [
+            "Si te casas, tienes 5 días de permiso ",
+            "que se descuentan de tus vacaciones."
+          ],
+          "respuesta": 1,
+          "correccion": "además de tus vacaciones.",
+          "explicacion": "El permiso por matrimonio es adicional a tus vacaciones: no se descuenta de ellas.",
+          "fuente": {
+            "archivo": "Código del Trabajo",
+            "articulo": "Art. 207 bis CT",
+            "fueraDelMaterial": true
+          },
+          "revisar": false
+        }
+      ]
+    }
+  ]
+}
