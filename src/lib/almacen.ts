@@ -11,7 +11,8 @@ export function cargarEstado(ahora: number): EstadoJuego {
     const crudo = localStorage.getItem(CLAVE_ALMACEN);
     if (!crudo) return base;
     const leido = JSON.parse(crudo) as Partial<EstadoJuego>;
-    if (leido.version !== 1) return base;
+    const version = (leido as { version?: number }).version;
+    if (version !== 1 && version !== 2) return base;
     // Mezcla con los valores por defecto por si faltan campos de versiones anteriores.
     const hoy = claveDia(new Date(ahora));
     const ejercicios = Object.fromEntries(
@@ -33,7 +34,9 @@ export function cargarEstado(ahora: number): EstadoJuego {
         atuendo: { ...base.tienda.atuendo, ...leido.tienda?.atuendo },
         accesorios: [...new Set([...base.tienda.accesorios, ...(leido.tienda?.accesorios ?? [])])],
       },
-      ajustes: { ...base.ajustes, ...leido.ajustes },
+      // Al pasar de la versión 1, el sonido vuelve a quedar activado.
+      ajustes: { ...base.ajustes, ...leido.ajustes, ...(version === 1 ? { sonido: true } : {}) },
+      version: 2,
     };
   } catch {
     return base;

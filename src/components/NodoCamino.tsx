@@ -120,7 +120,7 @@ export function NodoEspecial({ tipo, estado, desplazamiento, etiqueta, onClick }
             style={{ borderColor: tipo === 'cofre' ? 'color-mix(in srgb, var(--amber) 50%, transparent)' : 'color-mix(in srgb, var(--unidad) 45%, transparent)' }}
           />
         )}
-        {tipo === 'cofre' ? <IconoCofre className="h-8 w-8" /> : <IconoTrofeo className="h-8 w-8" />}
+        {tipo === 'cofre' ? <IconoCofre className={`h-8 w-8 ${disponible ? 'icono-sacude' : ''}`} /> : <IconoTrofeo className="h-8 w-8" />}
       </button>
     </div>
   );

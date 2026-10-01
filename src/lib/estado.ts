@@ -59,7 +59,8 @@ export interface Contadores {
 }
 
 export interface EstadoJuego {
-  version: 1;
+  /** 2: el sonido parte activado (en la versión 1 se podía haber guardado apagado). */
+  version: 2;
   perfil: Perfil | null;
   xpTotal: number;
   xpPorDia: Record<string, number>;
@@ -115,7 +116,7 @@ export const CONTADORES_INICIALES: Contadores = {
 
 export function estadoInicial(ahora: number): EstadoJuego {
   return {
-    version: 1,
+    version: 2,
     perfil: null,
     xpTotal: 0,
     xpPorDia: {},

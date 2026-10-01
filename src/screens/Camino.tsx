@@ -2,6 +2,7 @@
 import { useEffect, useMemo, useRef, useState, type CSSProperties } from 'react';
 import { BarraSuperior } from '../components/BarraSuperior';
 import { Boton } from '../components/Boton';
+import { CofreAnimado, type FaseCofre } from '../components/CofreAnimado';
 import { Confeti } from '../components/Confeti';
 import { Hoja } from '../components/Hoja';
 import { IconoCorona, IconoGema } from '../components/Iconos';
@@ -11,6 +12,7 @@ import { LECCIONES, leccionesDeUnidad, UNIDADES, type LeccionUbicada } from '../
 import type { Unidad } from '../content/types';
 import { useAviso } from '../hooks/useAviso';
 import { useJuego } from '../hooks/useJuego';
+import { useMovimiento } from '../hooks/useMovimiento';
 import { useReloj } from '../hooks/useReloj';
 import { useSonido } from '../hooks/useSonido';
 import { cofreDisponible } from '../lib/estado';
@@ -40,8 +42,9 @@ export function Camino({ onAccion }: { onAccion: (accion: AccionCamino) => void 
   const { avisar, elemento: aviso } = useAviso();
   const [leccionAbierta, setLeccionAbierta] = useState<LeccionUbicada | null>(null);
   const [checkpointAbierto, setCheckpointAbierto] = useState<Unidad | null>(null);
-  const [cofre, setCofre] = useState<{ gemas: number; logros: string[] } | null>(null);
+  const [cofre, setCofre] = useState<{ gemas: number; logros: string[]; fase: FaseCofre } | null>(null);
   const sonar = useSonido();
+  const movimiento = useMovimiento();
   const actual = useMemo(() => leccionActual(LECCIONES, estado.lecciones), [estado.lecciones]);
   const refActual = useRef<HTMLDivElement>(null);
 
@@ -70,8 +73,21 @@ export function Camino({ onAccion }: { onAccion: (accion: AccionCamino) => void 
     if (estado.cofres[`u${unidad.unidad}`]) return avisar('Ya abriste este cofre.');
     if (!cofreDisponible(estado, unidad.unidad)) return avisar(`Completa la lección ${unidad.cofreDespuesDe} para abrir este cofre.`);
     const r = abrirCofre(unidad.unidad);
+    setCofre({ gemas: r.gemas, logros: r.logrosNuevos.map((l) => `${l.titulo} (+${l.gemas})`), fase: 'cerrado' });
+  }
+
+  /** Las gemas ya se sumaron al tocar el nodo; esto es la animación de abrirlo. */
+  function destaparCofre() {
+    if (!cofre || cofre.fase !== 'cerrado') return;
     sonar('moneda');
-    setCofre({ gemas: r.gemas, logros: r.logrosNuevos.map((l) => `${l.titulo} (+${l.gemas})`) });
+    setCofre({ ...cofre, fase: 'abriendo' });
+    window.setTimeout(
+      () => {
+        setCofre((c) => c && { ...c, fase: 'abierto' });
+        if (cofre.logros.length) sonar('logro');
+      },
+      movimiento ? 750 : 0,
+    );
   }
 
   return (
@@ -159,30 +175,47 @@ export function Camino({ onAccion }: { onAccion: (accion: AccionCamino) => void 
           );
         })}
 
-        <p className="text-center text-sm text-muted">
-          Datos de la ley laboral chilena vigentes a octubre de 2026.
-        </p>
+        <footer className="grid gap-1 text-center text-sm text-muted">
+          <p>Datos de la ley laboral chilena vigentes a octubre de 2026.</p>
+          <p>
+            Desarrollado por <span className="font-extrabold text-ink">Jasmina Adasme</span> · Técnico en Administración · Santo Tomás La Serena
+          </p>
+        </footer>
       </main>
 
       <HojaLeccion l={leccionAbierta} onCerrar={() => setLeccionAbierta(null)} onAccion={onAccion} />
       <HojaCheckpoint unidad={checkpointAbierto} onCerrar={() => setCheckpointAbierto(null)} onAccion={onAccion} />
-      <Confeti disparo={cofre?.gemas ?? 0} />
-      <Hoja abierta={!!cofre} onCerrar={() => setCofre(null)} titulo="Cofre abierto">
+      <Confeti disparo={cofre?.fase === 'abierto' ? cofre.gemas : 0} />
+      <Hoja abierta={!!cofre} onCerrar={() => setCofre(null)} titulo="Cofre">
         <div className="grid justify-items-center gap-3 text-center">
-          <Lexi expresion="celebrando" className="h-auto w-32" />
-          <h2 className="text-2xl font-bold">¡Abriste un cofre!</h2>
-          <p className="inline-flex items-center gap-2 font-display text-3xl font-semibold" style={{ color: 'var(--u1)' }}>
-            <IconoGema className="h-8 w-8" />+{cofre?.gemas}
-          </p>
-          {cofre?.logros.map((l) => (
-            <p key={l} className="rounded-xl bg-amber-soft px-3 py-1.5 text-sm font-extrabold text-amber-text">
-              ¡Nuevo logro! {l}
-            </p>
-          ))}
-          <p className="text-muted">Usa las gemas en la tienda: vidas, protectores de racha o un casco nuevo para Lexi.</p>
-          <Boton ancho onClick={() => setCofre(null)}>
-            ¡Genial!
-          </Boton>
+          <h2 className="text-2xl font-bold">{cofre?.fase === 'abierto' ? '¡Abriste un cofre!' : '¡Encontraste un cofre!'}</h2>
+          <button
+            type="button"
+            onClick={destaparCofre}
+            disabled={cofre?.fase !== 'cerrado'}
+            aria-label="Abrir el cofre"
+            className="grid place-items-center rounded-3xl p-2 disabled:cursor-default"
+          >
+            <CofreAnimado fase={cofre?.fase ?? 'cerrado'} />
+          </button>
+          {cofre?.fase === 'abierto' ? (
+            <div className="aparece-pop grid w-full justify-items-center gap-3" role="status">
+              <p className="inline-flex items-center gap-2 font-display text-4xl font-semibold" style={{ color: 'var(--u1)' }}>
+                <IconoGema className="h-9 w-9" />+{cofre.gemas}
+              </p>
+              {cofre.logros.map((l) => (
+                <p key={l} className="rounded-xl bg-amber-soft px-3 py-1.5 text-sm font-extrabold text-amber-text">
+                  ¡Nuevo logro! {l}
+                </p>
+              ))}
+              <p className="text-muted">Úsalas en la tienda para vestir a Lexi o comprar ayudas.</p>
+              <Boton ancho onClick={() => setCofre(null)}>
+                ¡Genial!
+              </Boton>
+            </div>
+          ) : (
+            <p className="aviso-toca font-extrabold text-muted">{cofre?.fase === 'abriendo' ? '¡Abriendo!' : 'Toca el cofre para abrirlo'}</p>
+          )}
         </div>
       </Hoja>
     </div>

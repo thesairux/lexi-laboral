@@ -16,6 +16,9 @@ import { escucharInstalacion } from './lib/instalar';
 
 escucharInstalacion();
 
+// Siempre en modo oscuro. index.html ya lo trae, pero se repite por si la página se carga sin ese <html>.
+document.documentElement.dataset.theme = 'dark';
+
 // El service worker guarda la app para usarla sin internet. Solo en la versión final: en desarrollo estorbaría a la recarga en caliente.
 if (import.meta.env.PROD && 'serviceWorker' in navigator) {
   window.addEventListener('load', () => {
